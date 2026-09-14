@@ -8,25 +8,28 @@ The UD_Polish-MPDT treebank contains sentences from the Middle Polish period (17
 
 The syntactic annotations originate from the [Middle Polish Dependency Treebank](https://korba.edu.pl/treebank?lang=en), a project led by Aleksandra Wieczorek, which adds a dependency layer to a selected part of KorBa. The original MPDT annotation follows the conventions of the [Polish Dependency Bank (PDB)](https://zil.ipipan.waw.pl/PDB).
 
-This initial UD release contains 2,018 sentences and approximately 47K tokens, with plans for further expansion in future versions.
+This UD release contains 2,515 sentences and approximately 59K syntactic words (58,560 surface tokens).
 
 # Data
 
 ## Data Split
 
-In line with the guidelines for treebanks of 20K–110K words, approximately 10K words were allocated to the test set, ~10% of the remaining data to the development set, and the rest to the training set. The sentences were randomly shuffled (using seed 42) and then assigned to the three subsets based on token-count quotas:
+In line with the guidelines for treebanks of 20K–110K words, approximately 10K words are allocated to the test set, ~10% of the remaining data to the development set, and the rest to the training set.
 
-| Set   | Sentences | Tokens |
-|-------|-----------|--------|
-| Train | 1 433     | 33 520 |
-| Dev   | 162       | 3 748  |
-| Test  | 423       | 10 005 |
+The initial 2,018 sentences (v2.17) were randomly shuffled (using seed 42) and assigned to the three subsets based on word-count quotas. In subsequent releases, published sentence assignments remain strictly frozen. New material (MPDT_3) is assigned whole documents at a time to preserve document cohesion, topping up dev to 10% of the non-test material while keeping corpus-wide genre proportions:
+
+| Set   | Sentences | Syntactic Words | Surface Tokens |
+|-------|-----------|-----------------|----------------|
+| Train | 1 876     | 44 346          | 43 816         |
+| Dev   | 216       | 4 949           | 4 888          |
+| Test  | 423       | 10 005          | 9 856          |
+| Total | 2 515     | 59 300          | 58 560         |
 
 ## Genres / Document Structure
 
-This treebank **does not** separately label genres or domains by the sentence IDs, and the sentences are **not complete documents**. The corpus sentences have been shuffled randomly at the sentence level to form the splits.
+Sentence IDs are contiguous integers (1–2515). While the initial 2,018 sentences were sampled at the sentence level, new sentences are assigned by source document (tracked in the `orig_file_sentence` metadata comment, which records the KorBa document siglum). The treebank covers nonfiction, biblical texts, legal/administrative documents, fiction/belles-lettres, press/news, and poetry.
 
-# Development Team
+# Acknowledgments
 
 We thank the original Middle Polish Dependency Treebank team, led by Dr. Aleksandra Wieczorek. The data was annotated by Aleksandra Wieczorek, Bożena Itoya, Emanuel Modrzejewski, and Martyna Sabała-Bolek. Programming support for data preparation was provided by Dorota Komosińska.
 
@@ -39,9 +42,15 @@ The conversion to the UD format was developed by Kamil Tomaszek as part of his M
 
 # Changelog
 
+* 2026-11-15 v2.19
+  * Added 497 sentences (12,027 words) from MPDT_3, bringing the treebank to 2,515 sentences (59,300 words).
+  * Re-analyzed numeral expressions to align with UD Polish standards (`nummod:gov`, `det:numgov`, `det:nummod`, identifying numbers to `nmod`).
+  * Standardized comparative relation subtypes (`obl:cmp`, `advcl:cmp`, `acl:cmp`, `nmod:cmp`).
+  * Fixed whitespace and metadata text alignment across published sentences.
+* 2026-05-15 v2.18
+  * The :cmpr deprel subtype was renamed to :cmp.
 * 2025-11-15 v2.17
   * Initial release in Universal Dependencies.
-
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
@@ -49,7 +58,7 @@ Data available since: UD v2.17
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: nonfiction bible legal fiction
+Genre: nonfiction bible legal fiction news poetry
 Lemmas: manual native
 UPOS: converted from manual
 XPOS: automatic with corrections
@@ -57,6 +66,6 @@ Features: converted from manual
 Relations: converted from manual
 Contributors: Tomaszek, Kamil; Wróblewska, Alina; Wieczorek, Aleksandra
 Contributing: here
-Contact: kt.tomaszek@student.uw.edu.pl
+Contact: kamiltomaszek@icloud.com
 ===============================================================================
 </pre>

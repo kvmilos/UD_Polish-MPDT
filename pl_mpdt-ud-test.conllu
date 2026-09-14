@@ -6,8 +6,8 @@
 2	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 3	Ruda	Ruda	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	Translit=Ruda
 4	Ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=Ma
-5	2	2	NUM	dig	NumForm=Digit	4	iobj	4:iobj	Translit=2
-6	włóki	włóka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	5	nmod:arg	5:nmod:arg	Translit=włóki
+5	2	2	NUM	dig	NumForm=Digit	6	nummod	6:nummod	Translit=2
+6	włóki	włóka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	4	iobj	4:iobj	Translit=włóki
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Loc|Translit=w
 8	ograniczeniu	ograniczyć	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	obl	4:obl	Translit=ograniczeniu
 9	za	za	ADP	prep:inst	AdpType=Prep	10	case	10:case	Case=Ins|Translit=za
@@ -22,7 +22,7 @@
 18	granic	granica	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	19	obj	19:obj	Translit=granic
 19	strzeżenie	strzec	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	nsubj	16:nsubj	Translit=strzeżenie
 20	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	21	case	21:case	Case=Gen|Translit=od
-21	Księstwa	Księstwo	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	19	obl:arg	19:obl:arg	Translit=Księstwa
+21	Księstwa	Księstwo	PROPN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	19	nmod:arg	19:nmod:arg	Translit=Księstwa
 22	Brandenburskiego	Brandenburski	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod:flat	21:amod:flat	SpaceAfter=No|Translit=Brandenburskiego
 23	,	,	PUNCT	interp	PunctType=Comm	25	punct	25:punct	Translit=,
 24	które	który	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	25	obj	25:obj	Translit=które
@@ -165,11 +165,11 @@
 11	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	Translit=,
 12	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	13	case	13:case	Case=Ins|Translit=nad
 13	krzyżem	krzyż	NOUN	subst:sg:inst:m	Case=Ins|Gender=Masc|Number=Sing	15	nmod	15:nmod|17:nmod	Translit=krzyżem
-14	pół	pół	NUM	num:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word	15	nummod	15:nummod	Translit=pół
+14	pół	pół	NUM	num:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing|NumForm=Word	15	nummod:gov	15:nummod:gov	Translit=pół
 15	miesiąca	miesiąc	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	1	conj	1:conj	Translit=miesiąca
 16	i	i	CCONJ	conj	_	17	cc	17:cc	Translit=i
 17	gwiazdy	gwiazda	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	15	conj	1:conj|15:conj	SpaceAfter=No|Translit=gwiazdy
-18	,	,	PUNCT	interp	PunctType=Comm	17	punct	17:punct	Translit=,
+18	,	,	PUNCT	interp	PunctType=Comm	1	punct	1:punct	Translit=,
 19	stara	stary	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	1:amod	SpaceAfter=No|Translit=stara
 20	,	,	PUNCT	interp	PunctType=Comm	21	punct	21:punct	Translit=,
 21	podarta	podrzeć	ADJ	ppas:sg:nom:f:perf:aff:pos	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	19	conj	1:amod|19:conj	SpaceAfter=No|Translit=podarta
@@ -275,8 +275,8 @@
 # text = Roku 1535 4 Lutego na Sejmie zbrodnie niektórych Zakonników, to prawdziwe, to zmyślone przełożyć kazał: wypadł Dekret, aby Klasztorów mniejszych dochód wynoszący na 700 Czerwonych do skarbu należał.
 # text_translit = Roku 1535 4 Lutego na Seymie zbrodnie niektorych Z konnikoz, to prawdziwe, to zmyślone przełożyc kazał: wypadł Dekret, aby Klasztorow mnieyszych dochod wynoszący na 7 o Czerwonych do skarbu náleżał.
 1	Roku	rok	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	17	obl	17:obl	Translit=Roku
-2	1535	1535	NUM	dig	NumForm=Digit	1	flat	1:flat	Translit=1535
-3	4	4	NUM	dig	NumForm=Digit	2	flat	2:flat	Translit=4
+2	1535	1535	NUM	dig	NumForm=Digit	1	nummod:flat	1:nummod:flat	Translit=1535
+3	4	4	NUM	dig	NumForm=Digit	2	nummod:flat	2:nummod:flat	Translit=4
 4	Lutego	luty	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	3	nmod:flat	3:nmod:flat	Translit=Lutego
 5	na	na	ADP	prep:loc	AdpType=Prep	6	case	6:case	Case=Loc|Translit=na
 6	Sejmie	sejm	NOUN	subst:sg:loc:m	Case=Loc|Gender=Masc|Number=Sing	16	obl	16:obl	Translit=Seymie
@@ -290,7 +290,7 @@
 14	to	to	CCONJ	conj	_	15	cc	15:cc	Translit=to
 15	zmyślone	zmyślić	ADJ	ppas:pl:acc:f:perf:aff:pos	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	conj	7:amod|12:conj	Translit=zmyślone
 16	przełożyć	przełożyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	17:xcomp	Translit=przełożyc
-17	kazał	kazać	VERB	praet:sg:m:biasp	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=kazał
+17	kazał	kazać	VERB	praet:sg:m:biasp	Aspect=Imp,Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=kazał
 18	:	:	PUNCT	interp	PunctType=Colo	19	punct	19:punct	Translit=:
 19	wypadł	wypaść	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	17:conj	Translit=wypadł
 20	Dekret	dekret	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	19:nsubj	SpaceAfter=No|Translit=Dekret
@@ -300,9 +300,9 @@
 24	mniejszych	mały	ADJ	adj:pl:gen:m:com	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	23	amod	23:amod	Translit=mnieyszych
 25	dochód	dochód	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	32:nsubj	Translit=dochod
 26	wynoszący	wynosić	ADJ	pact:sg:nom:m:imperf:aff:pos	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	25	acl	25:acl	Translit=wynoszący
-27	na	na	ADP	prep:acc	AdpType=Prep	28	case	28:case	Case=Acc|Translit=na
-28	700	700	NUM	dig	NumForm=Digit	26	obl	26:obl	Translit=7 o
-29	Czerwonych	czerwony	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	28	nmod:arg	28:nmod:arg	Translit=Czerwonych
+27	na	na	ADP	prep:acc	AdpType=Prep	29	case	29:case	Case=Acc|Translit=na
+28	700	700	NUM	dig	NumForm=Digit	29	nummod	29:nummod	Translit=7 o
+29	Czerwonych	czerwony	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	26	obl	26:obl	Translit=Czerwonych
 30	do	do	ADP	prep:gen	AdpType=Prep	31	case	31:case	Case=Gen|Translit=do
 31	skarbu	skarb	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	32	obl:arg	32:obl:arg	Translit=skarbu
 32	należał	należeć	VERB	praet:sg:m:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	ccomp	20:ccomp	SpaceAfter=No|Translit=náleżał
@@ -346,7 +346,7 @@
 7	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	SpaceAfter=No|Translit=się
 8	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	Translit=,
 9	jeden	jeden	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	2	conj	2:conj	Translit=jeden
-10	sto	sto	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	11	nummod	11:nummod	Translit=sto
+10	sto	sto	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	11	nummod:gov	11:nummod:gov	Translit=sto
 11	dukatów	dukat	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	9	iobj	9:iobj	Translit=dukatów
 12	abo	abo	CCONJ	conj	_	13	cc	13:cc	Translit=abo
 13	więcej	więcej	DET	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	11	conj	9:iobj|11:conj	SpaceAfter=No|Translit=więcej
@@ -409,9 +409,9 @@
 10	tameczna	tameczny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	9:amod	Translit=tameczna
 11	nie	nie	PART	part	Polarity=Neg	12	advmod:neg	12:advmod:neg	Translit=nie
 12	dotrzymała	dotrzymać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=dotrzymała
-13	J	jego	ADV	brev:pun	Abbr=Yes	12	iobj	12:iobj	SpaceAfter=No|Translit=J
+13	J	jego	PRON	brev:pun	Person=3|PronType=Prs	12	iobj	12:iobj	SpaceAfter=No|Translit=J
 14	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	Translit=.
-15	K	królewski	ADV	brev:pun	Abbr=Yes	13	flat	13:flat	SpaceAfter=No|Translit=K
+15	K	królewski	ADJ	brev:pun	Abbr=Yes	13	flat	13:flat	SpaceAfter=No|Translit=K
 16	.	.	PUNCT	interp	PunctType=Peri	15	punct	15:punct	Translit=.
 17	Mci	mć	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	13	flat	13:flat	Translit=Mci
 18	i	i	CCONJ	conj	_	27	cc	27:cc	Translit=i
@@ -547,7 +547,7 @@
 12	do	do	ADP	prep:gen	AdpType=Prep	13	case	13:case	Case=Gen|Translit=do
 13	uważania	uważać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	23	obl	23:obl	Translit=uważánia
 14	ich	on	PRON	ppron3:pl:gen:n:ter:neut:npraep	Case=Gen|Gender=Neut|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	13	obj	13:obj	Translit=ich
-15	kilkanaście	kilkanaście	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	16	det	16:det	Translit=kilkánaśćie
+15	kilkanaście	kilkanaście	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	16	det:numgov	16:det:numgov	Translit=kilkánaśćie
 16	godzin	godzina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	23	iobj	23:iobj	SpaceAfter=No|Translit=godźin
 17	/	/	PUNCT	interp	PunctType=Slsh	22	punct	22:punct	Translit=/
 18	ba	ba	INTJ	interj	_	22	discourse:intj	22:discourse:intj	Translit=bá
@@ -574,7 +574,7 @@
 2	na	na	ADP	prep:loc	AdpType=Prep	4	case	4:case	Case=Loc|Translit=na
 3	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	4	det	4:det	Translit=tej
 4	protestacyjej	protestacja	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	16	obl	16:obl	Translit=protestacyjej
-5	jm	jegomość	ADV	brev:pun	Abbr=Yes	18	iobj	18:iobj	SpaceAfter=No|Translit=jm
+5	jm	jegomość	NOUN	brev:pun	Abbr=Yes	18	iobj	18:iobj	SpaceAfter=No|Translit=jm
 6	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
 7	p	pan	NOUN	brev:pun	Abbr=Yes	5	flat	5:flat	SpaceAfter=No|Translit=p
 8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	Translit=.
@@ -766,7 +766,7 @@
 2	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	Translit=,
 3	ile	ile	ADV	adv	PronType=Int	4	advmod	4:advmod	Translit=ile
 4-5	mogłem	_	_	_	_	_	_	_	SpaceAfter=No|Translit=mogłem
-4	mogł	móc	VERB	praet:sg:m:imperf:agl	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	Translit=mogł
+4	mogł	móc	VERB	praet:sg:m:imperf:agl	Agglutination=Agl|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	Translit=mogł
 5	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Number=Sing|Person=1|Variant=Long	4	aux:clitic	4:aux:clitic	Translit=em
 6	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	Translit=,
 7	żenie	żona	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	11	iobj	11:iobj	Translit=żenie
@@ -910,7 +910,7 @@
 # text_translit = §. V. Ozdrawiający tego śię wystrzegać powinni, aby wielkiemu Appetitowi swemu nie czynili zadosyć, niech raczey co 3. godziny trochę tylko jedzą, aby osłabiałego żołądka nie obćiążali, coby Recydywę sprawić mogło.
 1	§	§	SYM	sym	_	9	list	9:list|27:list	SpaceAfter=No|Translit=§
 2	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
-3	V	V	X	romandig	NumForm=Roman	1	amod	1:amod	SpaceAfter=No|Translit=V
+3	V	V	NUM	romandig	NumForm=Roman	1	nmod	1:nmod	SpaceAfter=No|Translit=V
 4	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	Translit=.
 5	Ozdrawiający	ozdrawiający	NOUN	subst:pl:nom:manim1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	9:nsubj|27:nsubj	Translit=Ozdrawiający
 6	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	8	iobj	8:iobj	Translit=tego
@@ -928,10 +928,10 @@
 18	,	,	PUNCT	interp	PunctType=Comm	27	punct	27:punct	Translit=,
 19	niech	niech	AUX	part	_	27	aux:imp	27:aux:imp	Translit=niech
 20	raczej	raczej	PART	part	_	27	advmod:emph	27:advmod:emph	Translit=raczey
-21	co	co	ADP	prep:acc	AdpType=Prep	22	case	22:case	Case=Acc|Translit=co
-22	3	3	NUM	dig	NumForm=Digit	27	obl	27:obl	SpaceAfter=No|Translit=3
-23	.	.	PUNCT	interp	PunctType=Peri	22	punct	22:punct	Translit=.
-24	godziny	godzina	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	22	nmod:arg	22:nmod:arg	Translit=godziny
+21	co	co	ADP	prep:acc	AdpType=Prep	24	case	24:case	Case=Acc|Translit=co
+22	3	3	NUM	dig	NumForm=Digit	24	nummod	24:nummod	SpaceAfter=No|Translit=3
+23	.	.	PUNCT	interp	PunctType=Peri	24	punct	24:punct	Translit=.
+24	godziny	godzina	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	27	obl	27:obl	Translit=godziny
 25	trochę	trochę	ADV	adv	_	27	advmod	27:advmod	Translit=trochę
 26	tylko	tylko	PART	part	_	25	advmod:emph	25:advmod:emph	Translit=tylko
 27	jedzą	jeść	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	9:conj	SpaceAfter=No|Translit=jedzą
@@ -1023,7 +1023,7 @@
 31	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	32	case	32:case	Case=Acc|Translit=w
 32	trianguł	trianguł	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	29	obl	29:obl	SpaceAfter=No|Translit=tryánguł
 33	,	,	PUNCT	interp	PunctType=Comm	34	punct	34:punct	Translit=,
-34	jako	jako	ADV	adv	_	32	obl:cmp	32:obl:cmp	Translit=iáko
+34	jako	jako	ADV	adv	_	32	nmod:cmp	32:nmod:cmp	Translit=iáko
 35	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	36	case	36:case	Case=Loc|Translit=w
 36	figurze	figura	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	34	obl:arg	34:obl:arg	Translit=figurze
 37	lewej	lewy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	36	amod	36:amod	SpaceAfter=No|Translit=lewey
@@ -1061,7 +1061,7 @@
 17	/	/	PUNCT	interp	PunctType=Slsh	3	punct	3:punct	Translit=/
 18	zaczym	zaczym	CCONJ	conj	_	24	cc	24:cc	Translit=záczym
 19	na	na	ADP	prep:acc	AdpType=Prep	21	case	21:case	Case=Acc|Translit=ná
-20	kilka	kilka	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	21	det	21:det	Translit=kilká
+20	kilka	kilka	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	21	det:numgov	21:det:numgov	Translit=kilká
 21	lat	rok	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	24	obl	24:obl	Translit=lat
 22	obawiać	obawiać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	24:xcomp	Translit=obawiáć
 23	się	się	PRON	part	PronType=Prs|Reflex=Yes	22	expl:pv	22:expl:pv	Translit=się
@@ -1253,9 +1253,9 @@
 4	Ptaszkowej	Ptaszkowa	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obl	1:obl	Translit=Ptaszkowey
 5	d	dzień	NOUN	brev:pun	Abbr=Yes	1	obl	1:obl	SpaceAfter=No|Translit=d
 6	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
-7	23	23	NUM	dig	NumForm=Digit	5	flat	5:flat	Translit=23
+7	23	23	NUM	dig	NumForm=Digit	5	nummod:flat	5:nummod:flat	Translit=23
 8	Marca	marzec	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	7	nmod:flat	7:nmod:flat	Translit=Marca
-9	1736	1736	NUM	dig	NumForm=Digit	8	flat	8:flat	SpaceAfter=No|Translit=1736
+9	1736	1736	NUM	dig	NumForm=Digit	8	nummod:flat	8:nummod:flat	SpaceAfter=No|Translit=1736
 10	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 
 # sent_id = 253
@@ -1365,9 +1365,9 @@
 # orig_file_sentence = korba1_manual#KalCuda#segm_2.18-s
 # text = Prawosł: Czytel: Strus ma skrzydła/ latać nie może/ także i pyszny.
 # text_translit = Prawosł: Czytel: Strus ma skrzydłá/ latać nie może/ tákże y pyszny.
-1	Prawosł	prawosławny	ADV	brev:pun	Abbr=Yes	3	advmod	3:advmod	SpaceAfter=No|Translit=Prawosł
+1	Prawosł	prawosławny	NOUN	brev:pun	Abbr=Yes	3	nmod	3:nmod	SpaceAfter=No|Translit=Prawosł
 2	:	:	PUNCT	interp	PunctType=Colo	1	punct	1:punct	Translit=:
-3	Czytel	czytelnik	ADV	brev:pun	Abbr=Yes	6	vocative	6:vocative|11:vocative|15:vocative	SpaceAfter=No|Translit=Czytel
+3	Czytel	czytelnik	NOUN	brev:pun	Abbr=Yes	6	vocative	6:vocative|11:vocative|15:vocative	SpaceAfter=No|Translit=Czytel
 4	:	:	PUNCT	interp	PunctType=Colo	3	punct	3:punct	Translit=:
 5	Strus	strus	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj|11:nsubj|15:nsubj	Translit=Strus
 6	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=ma
@@ -1440,7 +1440,7 @@
 # orig_file_sentence = korba1_manual#ChmielAteny_II#segm_3.128-s
 # text = W. Jan Lobedawa Prusak Franciszkan do Wcielenia Bożego dziwnie nabożny, dlatego w maleńkiego Dzicięcia postaci, nieraz CHRYSTUSA widzący.
 # text_translit = W. Ian Lobedawá Prusak Fránciszkan do Wcielenia Bożego dźiwnie nábożny, dla tego w maleńkiego Dźicięcia postaci, nie ráz CHRYSTUSA widzący.
-1	W	wielebny	ADV	brev:pun	Abbr=Yes	3	nmod	3:nmod	SpaceAfter=No|Translit=W
+1	W	wielebny	ADJ	brev:pun	Abbr=Yes	3	amod	3:amod	SpaceAfter=No|Translit=W
 2	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 3	Jan	Jan	PROPN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	Translit=Ian
 4	Lobedawa	Lobedawa	PROPN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	3	flat	3:flat	Translit=Lobedawá
@@ -1496,7 +1496,7 @@
 6	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	Translit=,
 7	i	i	PART	part	_	8	advmod:emph	8:advmod:emph	Translit=i
 8	tam	tam	ADV	adv	PronType=Dem	19	advmod	19:advmod	Translit=tam
-9	wiele	wiele	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det	10:det|12:det|14:det	Translit=wiele
+9	wiele	wiele	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	10	det:nummod	10:det:nummod|12:det:nummod|14:det:nummod	Translit=wiele
 10	wsiów	wieś	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	18	obj	18:obj	SpaceAfter=No|Translit=wsiów
 11	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	Translit=,
 12	dworów	dwór	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	10	conj	10:conj|18:obj	Translit=dworów
@@ -1506,7 +1506,7 @@
 16	niewydanie	wydać	NOUN	ger:sg:acc:n:perf:neg	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Neg|VerbForm=Vnoun	19	obl	19:obl	Translit=niewydanie
 17	kontrybucji	kontrybucja	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	16	obj	16:obj	Translit=kontrybucyi
 18	palić	palić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	19:xcomp	Translit=palić
-19	kazał	kazać	VERB	praet:sg:m:biasp	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=kazał
+19	kazał	kazać	VERB	praet:sg:m:biasp	Aspect=Imp,Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=kazał
 20	.	.	PUNCT	interp	PunctType=Peri	19	punct	19:punct	Translit=.
 
 # sent_id = 291
@@ -1634,7 +1634,7 @@
 13	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	14	case	14:case	Case=Gen|Translit=z
 14	Czech	Czechy	PROPN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	15	obl	15:obl	Translit=Czech
 15	przyszło	przyjść	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	2:advcl	Translit=przyszło
-16	kilka	kilka	DET	num:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	18	det	18:det	Translit=kilka
+16	kilka	kilka	DET	num:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	18	det:numgov	18:det:numgov	Translit=kilka
 17	set	sto	NUM	num:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur|NumForm=Word	16	flat	16:flat	Translit=set
 18	wozów	wóz	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	15	nsubj	15:nsubj	Translit=wozow
 19	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	20	case	20:case	Case=Ins|Translit=z
@@ -1770,7 +1770,7 @@
 34	rękę	ręka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	31	obl:arg	31:obl:arg	SpaceAfter=No|Translit=rękę
 35	/	/	PUNCT	interp	PunctType=Slsh	37	punct	37:punct	Translit=/
 36	i	i	CCONJ	conj	_	37	cc	37:cc	Translit=y
-37	przywiódł	przywieść	VERB	praet:sg:m:perf:nagl	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	conj	27:conj	Translit=przywiodł
+37	przywiódł	przywieść	VERB	praet:sg:m:perf:nagl	Agglutination=Nagl|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	conj	27:conj	Translit=przywiodł
 38	do	do	ADP	prep:gen	AdpType=Prep	40	case	40:case	Case=Gen|Translit=do
 39	pierwszego	pierwszy	ADJ	adjnum:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	40	amod	40:amod	Translit=pierwszego
 40	zdrowia	zdrowie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	37	obl:arg	37:obl:arg	SpaceAfter=No|Translit=zdrowia
@@ -1797,7 +1797,7 @@
 15	/	/	PUNCT	interp	PunctType=Slsh	1	punct	1:punct	Translit=/
 16	położone	położyć	ADJ	ppas:pl:nom:m:perf:aff:pos	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	Translit=położone
 17	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux:pass	16:aux:pass	Translit=są
-18	dla	dla	ADP	prep:gen	AdpType=Prep|ExtPos=ADV	29	case	21:case	Case=Gen|Translit=dla
+18	dla	dla	ADP	prep:gen	AdpType=Prep|ExtPos=ADV	29	case	29:case	Case=Gen|Translit=dla
 19	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	18	fixed	18:fixed	SpaceAfter=No|Translit=tego
 20	/	/	PUNCT	interp	PunctType=Slsh	19	punct	19:punct	Translit=/
 21	że	że	SCONJ	comp	_	29	mark	29:mark|32:mark	Translit=że
@@ -2048,24 +2048,24 @@
 # text = Dla garkuchni z drugiego końca stóp. 20, zostawiwszy także stóp 20. wolnego przejścia od szałaszów.
 # text_translit = Dla garkuchni z drugiego końca stop. 20, zostawiwszy tákże stop 20. wolnego prześcia od szałaszow.
 1	Dla	dla	ADP	prep:gen	AdpType=Prep	2	case	2:case	Case=Gen|Translit=Dla
-2	garkuchni	garkuchnia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	8:nmod	Translit=garkuchni
+2	garkuchni	garkuchnia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	6:nmod	Translit=garkuchni
 3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Gen|Translit=z
 4	drugiego	drugi	ADJ	adj:sg:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	5:amod	Translit=drugiego
-5	końca	koniec	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	8	nmod	8:nmod	Translit=końca
-6	stóp	stopa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	nmod:arg	8:nmod:arg	SpaceAfter=No|Translit=stop
+5	końca	koniec	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	6	nmod	6:nmod	Translit=końca
+6	stóp	stopa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	0	root	0:root	SpaceAfter=No|Translit=stop
 7	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	Translit=.
-8	20	20	NUM	dig	NumForm=Digit	0	root	0:root	SpaceAfter=No|Translit=20
+8	20	20	NUM	dig	NumForm=Digit	6	nummod	6:nummod	SpaceAfter=No|Translit=20
 9	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	Translit=,
-10	zostawiwszy	zostawić	VERB	pant:perf	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	8	advcl	8:advcl	Translit=zostawiwszy
-11	także	także	PART	part	_	13	advmod:emph	13:advmod:emph	Translit=tákże
-12	stóp	stopa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	13	nmod:arg	13:nmod:arg	Translit=stop
-13	20	20	NUM	dig	NumForm=Digit	10	obj	10:obj	SpaceAfter=No|Translit=20
-14	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	Translit=.
+10	zostawiwszy	zostawić	VERB	pant:perf	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	6:advcl	Translit=zostawiwszy
+11	także	także	PART	part	_	12	advmod:emph	12:advmod:emph	Translit=tákże
+12	stóp	stopa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	obj	10:obj	Translit=stop
+13	20	20	NUM	dig	NumForm=Digit	12	nummod	12:nummod	SpaceAfter=No|Translit=20
+14	.	.	PUNCT	interp	PunctType=Peri	12	punct	12:punct	Translit=.
 15	wolnego	wolny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	16:amod	Translit=wolnego
 16	przejścia	przejście	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	12	nmod:arg	12:nmod:arg	Translit=prześcia
 17	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	18	case	18:case	Case=Gen|Translit=od
-18	szałaszów	szałasz	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	13	nmod	13:nmod	SpaceAfter=No|Translit=szałaszow
-19	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	Translit=.
+18	szałaszów	szałasz	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	12	nmod	12:nmod	SpaceAfter=No|Translit=szałaszow
+19	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	Translit=.
 
 # sent_id = 383
 # orig_file_sentence = korba1_manual#KsPtaszUl_1#segm_2.279-s
@@ -2082,8 +2082,8 @@
 9	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	Translit=,
 10	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Ins|Translit=pod
 11	winą	wina	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	8	obl	8:obl	Translit=winą
-12	3	3	NUM	dig	NumForm=Digit	11	nmod:arg	11:nmod:arg	Translit=3
-13	grzywien	grzywna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	12	nmod:arg	12:nmod:arg	SpaceAfter=No|Translit=grzywien
+12	3	3	NUM	dig	NumForm=Digit	13	nummod	13:nummod	Translit=3
+13	grzywien	grzywna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	11	nmod:arg	11:nmod:arg	SpaceAfter=No|Translit=grzywien
 14	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	Translit=.
 
 # sent_id = 386
@@ -2150,7 +2150,7 @@
 14	wdzięcznymi	wdzięczny	ADJ	adj:pl:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	12	conj	12:conj|15:amod	Translit=wdźięcznymi
 15	słowy	słowo	NOUN	subst:pl:inst:n	Case=Ins|Gender=Neut|Number=Plur	23	iobj	23:iobj	SpaceAfter=No|Translit=słowy
 16	/	/	PUNCT	interp	PunctType=Slsh	17	punct	17:punct	Translit=/
-17	jako	jako	ADV	adv	_	15	obl:cmp	15:obl:cmp	Translit=iáko
+17	jako	jako	ADV	adv	_	15	nmod:cmp	15:nmod:cmp	Translit=iáko
 18	farbiczkami	farbiczka	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	17	obl:arg	17:obl:arg	Translit=fárbiczkámi
 19	niejakimi	niejaki	DET	adj:pl:inst:f:pos	Case=Ins|Gender=Fem|Number=Plur|PronType=Ind	18	det	18:det	SpaceAfter=No|Translit=nieiakimi
 20	/	/	PUNCT	interp	PunctType=Slsh	17	punct	17:punct	Translit=/
@@ -2396,7 +2396,7 @@
 7	turkusikami	turkusik	NOUN	subst:pl:inst:m	Case=Ins|Gender=Masc|Number=Plur	10	iobj	10:iobj	Translit=turkusikami
 8	i	i	CCONJ	conj	_	9	cc	9:cc	Translit=i
 9	rubinkami	rubinek	NOUN	subst:pl:inst:m	Case=Ins|Gender=Masc|Number=Plur	7	conj	7:conj|10:iobj	Translit=rubinkami
-10	adornowana	adornować	ADJ	ppas:sg:nom:f:biasp:aff:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	conj	1:amod|2:conj	SpaceAfter=No|Translit=adornowana
+10	adornowana	adornować	ADJ	ppas:sg:nom:f:biasp:aff:pos	Aspect=Imp,Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	2	conj	1:amod|2:conj	SpaceAfter=No|Translit=adornowana
 11	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 
 # sent_id = 428
@@ -2434,7 +2434,7 @@
 29	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	30	case	30:case	Case=Gen|Translit=z
 30	miasta	miasto	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	31	obl	31:obl	Translit=miástá
 31	wyniść	wyniść	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	32:xcomp	Translit=wyniść
-32	kazał	kazać	VERB	praet:sg:m:biasp	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	20:conj	SpaceAfter=No|Translit=kazał
+32	kazał	kazać	VERB	praet:sg:m:biasp	Aspect=Imp,Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	20:conj	SpaceAfter=No|Translit=kazał
 33	/	/	PUNCT	interp	PunctType=Slsh	38	punct	38:punct	Translit=/
 34	tylko	tylko	PART	part	_	35	advmod:emph	35:advmod:emph	Translit=tylko
 35	kilku	kilka	DET	num:pl:acc:manim1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	38	obj	38:obj	Translit=kliku
@@ -2474,7 +2474,7 @@
 6	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Number=Plur|Person=1|Variant=Short	5	aux:clitic	5:aux:clitic	Translit=śmy
 7	zacnych	zacny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	8:amod	Translit=zacnych
 8	rzeczy	rzecz	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	iobj	5:iobj	Translit=rzeczy
-9	niemało	niemało	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	8	det	8:det	SpaceAfter=No|Translit=nie mało
+9	niemało	niemało	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	8	det:numgov	8:det:numgov	SpaceAfter=No|Translit=nie mało
 10	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	Translit=,
 11	jako	jako	PART	part	ExtPos=ADV	13	advmod	13:advmod|18:advmod	Translit=jako
 12	to	to	PART	part	_	11	fixed	11:fixed	Translit=to
@@ -2604,11 +2604,11 @@
 13	.	.	PUNCT	interp	PunctType=Peri	12	punct	12:punct	Translit=.
 14	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	15	case	15:case	Case=Gen|Translit=z
 15	Psalmu	psalm	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	10	nmod	10:nmod	Translit=Psalmu
-16	72	72	NUM	dig	NumForm=Digit	15	amod	15:amod	SpaceAfter=No|Translit=72
+16	72	72	NUM	dig	NumForm=Digit	15	nmod	15:nmod	SpaceAfter=No|Translit=72
 17	.	.	PUNCT	interp	PunctType=Peri	16	punct	16:punct	Translit=.
-18	w	werset	ADV	brev:pun	Abbr=Yes	15	nmod	15:nmod	SpaceAfter=No|Translit=w
+18	w	werset	NOUN	brev:pun	Abbr=Yes	15	nmod	15:nmod	SpaceAfter=No|Translit=w
 19	.	.	PUNCT	interp	PunctType=Peri	18	punct	18:punct	Translit=.
-20	26	26	NUM	dig	NumForm=Digit	18	obl	18:obl	SpaceAfter=No|Translit=26
+20	26	26	NUM	dig	NumForm=Digit	18	nmod	18:nmod	SpaceAfter=No|Translit=26
 21	.	.	PUNCT	interp	PunctType=Peri	20	punct	20:punct	SpaceAfter=No|Translit=.
 22	BÓG	Bóg	PROPN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	23:nsubj|27:nsubj	Translit=BOG
 23	Panem	pan	NOUN	subst:sg:inst:m	Case=Ins|Gender=Masc|Number=Sing	10	parataxis:obj	10:parataxis:obj	Translit=Panem
@@ -2670,27 +2670,27 @@
 # orig_file_sentence = korba1_manual#InwKal_II#segm_3.72-s
 # text = Wołów ma 4, krowę jednę, świnię jednę, wóz, pług, radło, kosę, sierp, siekierę.
 # text_translit = Wołów ma 4, krowę jednę, świnię jednę, wóz, pług, radło, kosę, sierp, siekierę.
-1	Wołów	wół	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	3	nmod:arg	3:nmod:arg	Translit=Wołów
+1	Wołów	wół	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	2	iobj	2:iobj	Translit=Wołów
 2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=ma
-3	4	4	NUM	dig	NumForm=Digit	2	iobj	2:iobj	SpaceAfter=No|Translit=4
+3	4	4	NUM	dig	NumForm=Digit	1	nummod	1:nummod	SpaceAfter=No|Translit=4
 4	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	Translit=,
-5	krowę	krowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	conj	2:iobj|3:conj	Translit=krowę
+5	krowę	krowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	conj	1:conj|2:iobj	Translit=krowę
 6	jednę	jeden	ADJ	adjnum:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	5	amod	5:amod	SpaceAfter=No|Translit=jednę
 7	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	Translit=,
-8	świnię	świnia	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	conj	2:iobj|3:conj	Translit=świnię
+8	świnię	świnia	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	conj	1:conj|2:iobj	Translit=świnię
 9	jednę	jeden	ADJ	adjnum:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	8	amod	8:amod	SpaceAfter=No|Translit=jednę
 10	,	,	PUNCT	interp	PunctType=Comm	11	punct	11:punct	Translit=,
-11	wóz	wóz	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	3	conj	2:iobj|3:conj	SpaceAfter=No|Translit=wóz
+11	wóz	wóz	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	1	conj	1:conj|2:iobj	SpaceAfter=No|Translit=wóz
 12	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	Translit=,
-13	pług	pług	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	3	conj	2:iobj|3:conj	SpaceAfter=No|Translit=pług
+13	pług	pług	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	1	conj	1:conj|2:iobj	SpaceAfter=No|Translit=pług
 14	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	Translit=,
-15	radło	radło	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	3	conj	2:iobj|3:conj	SpaceAfter=No|Translit=radło
+15	radło	radło	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	1	conj	1:conj|2:iobj	SpaceAfter=No|Translit=radło
 16	,	,	PUNCT	interp	PunctType=Comm	17	punct	17:punct	Translit=,
-17	kosę	kosa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	conj	2:iobj|3:conj	SpaceAfter=No|Translit=kosę
+17	kosę	kosa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	conj	1:conj|2:iobj	SpaceAfter=No|Translit=kosę
 18	,	,	PUNCT	interp	PunctType=Comm	19	punct	19:punct	Translit=,
-19	sierp	sierp	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	3	conj	2:iobj|3:conj	SpaceAfter=No|Translit=sierp
+19	sierp	sierp	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	1	conj	1:conj|2:iobj	SpaceAfter=No|Translit=sierp
 20	,	,	PUNCT	interp	PunctType=Comm	21	punct	21:punct	Translit=,
-21	siekierę	siekiera	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	conj	2:iobj|3:conj	SpaceAfter=No|Translit=siekierę
+21	siekierę	siekiera	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	conj	1:conj|2:iobj	SpaceAfter=No|Translit=siekierę
 22	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	Translit=.
 
 # sent_id = 524
@@ -2699,7 +2699,7 @@
 # text_translit = Iest tak wiele kommilitonow moich co mię wtym wyswiadczą ci co tam byli co na to patrzali.
 1	Jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=Iest
 2	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	4:advmod	Translit=tak
-3	wiele	wiele	DET	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det	4:det	Translit=wiele
+3	wiele	wiele	DET	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	4	det:numgov	4:det:numgov	Translit=wiele
 4	komilitonów	komiliton	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	1	nsubj	1:nsubj	Translit=kommilitonow
 5	moich	mój	DET	adj:pl:gen:m:pos	Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	4:det:poss	Translit=moich
 6	co	co	PART	part	_	10	mark	4:ref|10:mark	Translit=co
@@ -2816,13 +2816,13 @@
 7	gór	góra	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	conj	5:conj	SpaceAfter=No|Translit=gor
 8	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	Translit=,
 9	Obywatelów	obywatel	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	5	conj	5:conj	Translit=Obywátelow
-10	pełno	pełno	DET	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det	5:det	SpaceAfter=No|Translit=pełno
+10	pełno	pełno	DET	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	5	det:nummod	5:det:nummod|7:det:nummod|9:det:nummod	SpaceAfter=No|Translit=pełno
 11	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	Translit=,
 12	ale	ale	CCONJ	conj	_	15	cc	15:cc	Translit=ale
 13	też	też	PART	part	_	15	advmod:emph	15:advmod:emph	Translit=też
 14	i	i	PART	part	_	15	advmod:emph	15:advmod:emph	Translit=y
 15	futra	futro	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	conj	5:conj	Translit=futrá
-16	niemało	niemało	DET	num:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	15	det	15:det	SpaceAfter=No|Translit=nie mało
+16	niemało	niemało	DET	num:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	15	det:numgov	15:det:numgov	SpaceAfter=No|Translit=nie mało
 17	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
 
 # sent_id = 536
@@ -2874,7 +2874,7 @@
 41	barzo	barzo	ADV	adv:pos	Degree=Pos	42	advmod	42:advmod	Translit=barzo
 42	zacny	zacny	ADJ	adj:sg:acc:m:pos	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	40	amod	40:amod	Translit=zacny
 43	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	46	case	46:case	Case=Ins|Translit=z
-44	wielo	wiele	DET	num:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur|PronType=Ind	46	det	46:det	Translit=wielo
+44	wielo	wiele	DET	num:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur|PronType=Ind	46	det:nummod	46:det:nummod	Translit=wielo
 45	kosztownych	kosztowny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	46	amod	46:amod	Translit=kosztownych
 46	statuj	statua	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	40	nmod	40:nmod	SpaceAfter=No|Translit=statuy
 47	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
@@ -2983,7 +2983,7 @@
 11	nie	nie	PART	part	Polarity=Neg	12	advmod:neg	12:advmod:neg	SpaceAfter=No|Translit=nie
 12	rozlewając	rozlewać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	9:advcl	Translit=rozlewaiąc
 13	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	15	advmod	15:advmod	Translit=tak
-14	wiele	wiele	DET	num:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	15	det	15:det	Translit=wiele
+14	wiele	wiele	DET	num:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	15	det:nummod	15:det:nummod	Translit=wiele
 15	krwie	krew	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	obj	12:obj	SpaceAfter=No|Translit=krwie
 16	.	.	PUNCT	interp	PunctType=Peri	17	punct	17:punct	Translit=.
 17	Ludzkiej	ludzki	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	15:amod	Translit=Ludzkiey
@@ -3076,9 +3076,9 @@
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Loc|Translit=w
 6	kole	koło	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	15	obl	15:obl	Translit=kole
 7	generalnem	generalny	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	6:amod	Translit=generalném
-8	J	jego	ADV	brev:pun	Abbr=Yes	15	iobj	15:iobj	SpaceAfter=No|Translit=J
+8	J	jego	PRON	brev:pun	Person=3|PronType=Prs	15	iobj	15:iobj	SpaceAfter=No|Translit=J
 9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	Translit=.
-10	M	mość	ADV	brev:pun	Abbr=Yes	8	flat	8:flat	SpaceAfter=No|Translit=M
+10	M	mość	NOUN	brev:pun	Abbr=Yes	8	flat	8:flat	SpaceAfter=No|Translit=M
 11	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	Translit=.
 12	P	pan	NOUN	brev:pun	Abbr=Yes	8	flat	8:flat	SpaceAfter=No|Translit=P
 13	.	.	PUNCT	interp	PunctType=Peri	12	punct	12:punct	Translit=.
@@ -3093,7 +3093,7 @@
 22	wszystko	wszystek	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	21	det	21:det	Translit=wszystko
 23	do	do	ADP	prep:gen	AdpType=Prep	24	case	24:case	Case=Gen|Translit=do
 24	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	25	obl:arg	25:obl:arg	Translit=tego
-25	deputowało	deputować	VERB	praet:sg:n:biasp	Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	csubj	15:csubj	SpaceAfter=No|Translit=deputowało
+25	deputowało	deputować	VERB	praet:sg:n:biasp	Aspect=Imp,Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	csubj	15:csubj	SpaceAfter=No|Translit=deputowało
 26	.	.	PUNCT	interp	PunctType=Peri	15	punct	15:punct	Translit=.
 
 # sent_id = 587
@@ -3105,7 +3105,7 @@
 3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Gen|Translit=z
 4	miasta	miasto	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	1	obl	1:obl	Translit=miástá
 5	Pogan	poganin	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	1	nsubj	1:nsubj	Translit=Pogan
-6	pięćdziesiąt	pięćdziesiąt	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	5	nummod	5:nummod	Translit=pięćdźieśiąt
+6	pięćdziesiąt	pięćdziesiąt	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	5	nummod:gov	5:nummod:gov	Translit=pięćdźieśiąt
 7	tysięcy	tysiąc	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	6	flat	6:flat	SpaceAfter=No|Translit=tyśięcy
 8	/	/	PUNCT	interp	PunctType=Slsh	13	punct	13:punct	Translit=/
 9	a	a	CCONJ	conj	_	13	cc	13:cc	Translit=á
@@ -3322,7 +3322,7 @@
 9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Ins|Translit=z
 10	którymi	który	DET	adj:pl:inst:f:pos	Case=Ins|Gender=Fem|Number=Plur|PronType=Rel	11	obl	11:obl	Translit=którymi
 11	siedział	siedzieć	VERB	praet:sg:m:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	6:acl:relcl	Translit=siedział
-12	jmp	jegomość_pan	ADV	brev:pun	Abbr=Yes	11	xcomp:subj	11:xcomp:subj	SpaceAfter=No|Translit=jmp
+12	jmp	jegomość_pan	NOUN	brev:pun	Abbr=Yes	11	nsubj	11:nsubj	SpaceAfter=No|Translit=jmp
 13	.	.	PUNCT	interp	PunctType=Peri	12	punct	12:punct	Translit=.
 14	wojewoda	wojewoda	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	12	appos	12:appos	Translit=wojewoda
 15	ruski	ruski	ADJ	adj:sg:nom:m:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	14:amod	SpaceAfter=No|Translit=ruski
@@ -3431,7 +3431,7 @@
 # sent_id = 718
 # orig_file_sentence = korba1_manual#BujnDroga#segm_2.266-s
 # text = Skąd bowiem (proszę) Pycha? Gniew? iNienawiść? jeśli nie z dumnej o sobie buty/ czci/ i rozumienia?
-# text_translit = Ztąd bowiem (proszę) Pycha? Gniew? yNienáwiść? ieśli nie z dumney o sobie buty/ czći/ y rozumieniá?
+# text_translit = Zkąd bowiem (proszę) Pycha? Gniew? yNienáwiść? ieśli nie z dumney o sobie buty/ czći/ y rozumieniá?
 1	Skąd	stąd	ADV	adv	PronType=Dem	6	advmod	6:advmod|8:advmod|11:advmod	Translit=Zkąd
 2	bowiem	bowiem	SCONJ	comp	_	6	mark	6:mark|8:mark|11:mark	Translit=bowiem
 3	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	4	punct	4:punct	SpaceAfter=No|Translit=(
@@ -3489,9 +3489,9 @@
 1	BARBADA	Barbada	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj|9:nsubj|23:nsubj	Translit=BARBADA
 2	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=może
 3	mieć	mieć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Translit=mieć
-4	15	15	NUM	dig	NumForm=Digit	3	iobj	3:iobj	SpaceAfter=No|Translit=15
-5	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	Translit=.
-6	mil	mila	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	nmod:arg	4:nmod:arg	Translit=mil
+4	15	15	NUM	dig	NumForm=Digit	6	nummod	6:nummod	SpaceAfter=No|Translit=15
+5	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	Translit=.
+6	mil	mila	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	iobj	3:iobj	Translit=mil
 7	wokoło	wokoło	ADV	adv:pos	Degree=Pos	3	advmod	3:advmod	SpaceAfter=No|Translit=w około
 8	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	Translit=,
 9	obfituje	obfitować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	2:conj	Translit=obfituie
@@ -3514,7 +3514,7 @@
 26	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	27	case	27:case	Case=Gen|Translit=od
 27	R	rok	NOUN	brev:pun	Abbr=Yes	31	obl	31:obl	SpaceAfter=No|Translit=R
 28	.	.	PUNCT	interp	PunctType=Peri	27	punct	27:punct	Translit=.
-29	1627	1627	NUM	dig	NumForm=Digit	27	flat	27:flat	Translit=1627
+29	1627	1627	NUM	dig	NumForm=Digit	27	nummod:flat	27:nummod:flat	Translit=1627
 30	tu	tu	ADV	adv	PronType=Dem	31	advmod	31:advmod	Translit=tu
 31	postanowieni	postanowić	ADJ	ppas:pl:nom:manim1:perf:aff:pos	Animacy=Hum|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	25	acl	25:acl	SpaceAfter=No|Translit=postanowieni
 32	,	,	PUNCT	interp	PunctType=Comm	31	punct	31:punct	Translit=,
@@ -3561,7 +3561,7 @@
 1	Tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	Translit=Tę
 2	tedy	tedy	CCONJ	conj	_	22	cc	22:cc	Translit=tedy
 3	epaktę	epakta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	15	obj	15:obj	Translit=epáktę
-4	I	I	X	romandig	NumForm=Roman	3	amod	3:amod	SpaceAfter=No|Translit=I
+4	I	I	NUM	romandig	NumForm=Roman	3	nmod	3:nmod	SpaceAfter=No|Translit=I
 5	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	Translit=.
 6	przy	przy	ADP	prep:loc	AdpType=Prep	8	case	8:case	Case=Loc|Translit=przy
 7	którym	który	DET	adj:sg:loc:m:pos	Case=Loc|Gender=Masc|Number=Sing|PronType=Int	8	det	8:det	Translit=ktorym
@@ -3685,7 +3685,7 @@
 # text = kazałeś katowi zamordować; których krwie, że król nie zemścił się nad tobą, czegoś beł godzien, Bóg się na nim przez tenże instrument zachowany słusznie mści.
 # text_translit = kazałeś katowi zamordować; których krwie, że król nie zemścił się nad tobą, czegoś beł godzien, Bóg się na nim przez tenże instrument zachowany słusznie mści.
 1-2	kazałeś	_	_	_	_	_	_	_	Translit=kazałeś
-1	kazał	kazać	VERB	praet:sg:m:biasp	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=kazał
+1	kazał	kazać	VERB	praet:sg:m:biasp	Aspect=Imp,Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=kazał
 2	eś	być	AUX	aglt:sg:sec:imperf:wok	Aspect=Imp|Number=Sing|Person=2|Variant=Long	1	aux:clitic	1:aux:clitic	Translit=eś
 3	katowi	kat	NOUN	subst:sg:dat:m	Case=Dat|Gender=Masc|Number=Sing	1	obl	1:obl	Translit=katowi
 4	zamordować	zamordować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	1:xcomp	SpaceAfter=No|Translit=zamordować
@@ -3744,8 +3744,8 @@
 16	tych	ten	DET	adj:pl:loc:m:pos	Case=Loc|Gender=Masc|Number=Plur|PronType=Dem	17	det	17:det	Translit=tych
 17	czasiech	czas	NOUN	subst:pl:loc:m	Case=Loc|Gender=Masc|Number=Plur	18	obl	18:obl	Translit=czasiech
 18	poszło	pójść	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	SpaceAfter=No|Translit=poszło
-19	,	,	PUNCT	interp	PunctType=Comm	33	punct	33:punct	Translit=,
-20	a	a	CCONJ	conj	ExtPos=ADV	33	cc	33:cc	Translit=a
+19	,	,	PUNCT	interp	PunctType=Comm	29	punct	29:punct	Translit=,
+20	a	a	CCONJ	conj	ExtPos=ADV	29	cc	29:cc	Translit=a
 21	zatym	zatym	CCONJ	conj	_	20	fixed	20:fixed	Translit=zatym
 22	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	29	case	29:case	Case=Loc|Translit=w
 23	niespokojnych	niespokojny	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	29	amod	29:amod	Translit=niespokojnych
@@ -3754,11 +3754,11 @@
 26	rozumach	rozum	NOUN	subst:pl:loc:m	Case=Loc|Gender=Masc|Number=Plur	28	obl:arg	28:obl:arg	Translit=rozumach
 27	swych	swój	DET	adj:pl:loc:m:pos	Case=Loc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	26	det:poss	26:det:poss	Translit=swych
 28	dufających	dufać	ADJ	pact:pl:loc:n:imperf:aff:pos	Aspect=Imp|Case=Loc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	23	conj	23:conj|29:amod	Translit=dufających
-29	cerebelach	cerebele	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	33	obl	33:obl	SpaceAfter=No|Translit=cerebelach
+29	cerebelach	cerebele	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	18	conj	7:advcl|18:conj	SpaceAfter=No|Translit=cerebelach
 30	,	,	PUNCT	interp	PunctType=Comm	29	punct	29:punct	Translit=,
 31	takowych	takowy	ADJ	adj:pl:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	34	amod	34:amod	Translit=takowych
 32	wichrowatych	wichrowaty	ADJ	adj:pl:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	34	amod	34:amod	Translit=wichrowatych
-33	narodziło	narodzić	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	conj	7:advcl|18:conj	Translit=narodziło
+33	narodziło	narodzić	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	conj	7:advcl|18:conj|29:conj	Translit=narodziło
 34	konceptów	koncept	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	33	obj	33:obj	SpaceAfter=No|Translit=konceptów
 35	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	Translit=.
 
@@ -3874,7 +3874,7 @@
 5	okazjach	okazja	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	1	obl	1:obl	Translit=okázyách
 6	na	na	ADP	prep:acc	AdpType=Prep	7	case	7:case	Case=Acc|Translit=ná
 7	żądanie	żądać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obl	1:obl	Translit=żądánie
-8	Uprzejmości	uprzejmość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	obl:agent	7:obl:agent	Translit=Vprzeymośći
+8	Uprzejmości	uprzejmość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	7:nmod	Translit=Vprzeymośći
 9	Waszej	wasz	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	8	det:poss	8:det:poss	Translit=Wászey
 10	dowody	dowód	NOUN	subst:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur	1	obj	1:obj	SpaceAfter=No|Translit=dowody
 11	,	,	PUNCT	interp	PunctType=Comm	17	punct	17:punct	Translit=,
@@ -3928,7 +3928,7 @@
 # orig_file_sentence = korba1_manual#KwiatDzieje#segm_4.176-s
 # text = Trzydzieści lat żył w rozłączeniu dobrowolnym z Jadwigą Świętą w czystości/ i ona go nie nawiedzała/ chyba kiedy ubogich i ukrzywdzonych trzeba było u niego ratować.
 # text_translit = Trzydźieśći lat żył w rozłączeniu dobrowolnym z Iádwigą Swiętą w czystośći/ i oná go nie náwiedzáłá/ chybá kiedy ubogich i ukrzywdzonych trzebá było u niego rátowáć.
-1	Trzydzieści	trzydzieści	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	2	nummod	2:nummod	Translit=Trzydźieśći
+1	Trzydzieści	trzydzieści	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	2	nummod:gov	2:nummod:gov	Translit=Trzydźieśći
 2	lat	rok	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	3	obl	3:obl	Translit=lat
 3	żył	żyć	VERB	praet:sg:m:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=żył
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Loc|Translit=w
@@ -4027,7 +4027,7 @@
 28	i	i	CCONJ	conj	_	29	cc	29:cc	Translit=i
 29	Konstancji	Konstancja	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	27	conj	25:nmod|27:conj	Translit=Konstancyi
 30	Zygmunta	Zygmunt	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	33	nmod	33:nmod	Translit=Zygmunta
-31	III	III	X	romandig	NumForm=Roman	30	flat	30:flat	SpaceAfter=No|Translit=III
+31	III	III	NUM	romandig	NumForm=Roman	30	nummod:flat	30:nummod:flat	SpaceAfter=No|Translit=III
 32	.	.	PUNCT	interp	PunctType=Peri	31	punct	31:punct	Translit=.
 33	Żon	żona	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	27	appos	27:appos|29:appos	SpaceAfter=No|Translit=Zon
 34	,	,	PUNCT	interp	PunctType=Comm	37	punct	37:punct	Translit=,
@@ -4059,7 +4059,7 @@
 # sent_id = 802
 # orig_file_sentence = korba1_manual#OkolNiebo_s#segm_4.246-s
 # text = Dunaj gdy zebrał i zalewał Klasztor jej/ modlitwą był obroniony.
-# text_translit = Dynay gdy zebrał y zálewał Klasztor iey/ modlitwą był obroniony.
+# text_translit = Dunay gdy zebrał y zálewał Klasztor iey/ modlitwą był obroniony.
 1	Dunaj	Dunaj	PROPN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj|5:nsubj	Translit=Dunay
 2	gdy	gdy	ADV	adv	_	3	advmod	3:advmod|5:advmod	Translit=gdy
 3	zebrał	zebrać	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	11:advcl	Translit=zebrał
@@ -4103,7 +4103,7 @@
 3	do	do	ADP	prep:gen	AdpType=Prep	4	case	4:case	Case=Gen|Translit=do
 4	izby	izba	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	obl	1:obl	Translit=izby
 5-6	kazałem	_	_	_	_	_	_	_	Translit=kazałęm
-5	kazał	kazać	VERB	praet:sg:m:biasp	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=kazał
+5	kazał	kazać	VERB	praet:sg:m:biasp	Aspect=Imp,Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=kazał
 6	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Number=Sing|Person=1|Variant=Long	5	aux:clitic	5:aux:clitic	Translit=ęm
 7	owych	ów	DET	adj:pl:acc:manim1:pos	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	8	obj	8:obj	Translit=owych
 8	powiązać	powiązać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	5:xcomp	Translit=powiązać
@@ -4116,8 +4116,8 @@
 13	oddał	oddać	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	5:conj	Translit=oddał
 14	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Number=Sing|Person=1|Variant=Long	13	aux:clitic	13:aux:clitic	Translit=ęm
 15	i	i	CCONJ	conj	_	5	cc	5:cc	Translit=y
-16	sani	sanie	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	17	nmod:arg	17:nmod:arg	Translit=sani
-17	dwoje	dwa	NUM	numcol:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur|NumForm=Word	13	obj	13:obj	Translit=dwoie
+16	sani	sanie	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	13	obj	13:obj	Translit=sani
+17	dwoje	dwa	NUM	numcol:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur|NumForm=Word	16	nummod:gov	16:nummod:gov	Translit=dwoie
 18	przykazawszy	przykazać	VERB	pant:perf	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	13	advcl	13:advcl	Translit=przykazawszy
 19	wara	wara	INTJ	interj	_	18	discourse:intj	18:discourse:intj	Translit=wara
 20	chłopie	chłop	NOUN	subst:sg:voc:m	Case=Voc|Gender=Masc|Number=Sing	19	vocative	19:vocative	Translit=chłopie
@@ -4201,8 +4201,8 @@
 # orig_file_sentence = korba1_manual#HinPlęsy#segm_5.121-s
 # text = ¤ I. O Duszo moja/ jakąć to Dziecię namilsze JEZUS uczyniło krotofilę/ skacząc przed Ojcem swym niebieskim tak uciesznie.
 # text_translit = ¤ I. O Duszo moiá/ iákąć to Dźiećię namilsze IEZVS vczyniło krotofile/ skacząc przed Oycem swym niebieskim ták vćiesznie.
-1	¤	¤	X	ign	Foreign=Yes	2	list	2:list	Translit=¤
-2	I	I	X	romandig	NumForm=Roman	14	list	14:list	SpaceAfter=No|Translit=I
+1	¤	¤	X	ign	_	2	list	2:list	Translit=¤
+2	I	I	NUM	romandig	NumForm=Roman	14	list	14:list	SpaceAfter=No|Translit=I
 3	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	Translit=.
 4	O	o	INTJ	interj	_	5	discourse:intj	5:discourse:intj	Translit=O
 5	Duszo	dusza	NOUN	subst:sg:voc:f	Case=Voc|Gender=Fem|Number=Sing	14	vocative	14:vocative	Translit=Duszo
@@ -4355,7 +4355,7 @@
 12	wymierzając	wymierzać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	6:advcl	Translit=wymierzaiąc
 13	dwadzieściaczterogodzinny	dwadzieściaczterogodzinny	ADJ	adj:sg:acc:m:pos	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	10:amod	SpaceAfter=No|Translit=dwadzieścia czterogodzinny
 14	:	:	PUNCT	interp	PunctType=Colo	18	punct	18:punct	Translit=:
-15	to	to	PART	part	ExtPos=CCONJ	18	advmod:emph	17:advmod:emph	Translit=to
+15	to	to	PART	part	ExtPos=CCONJ	18	advmod:emph	18:advmod:emph	Translit=to
 16	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	fixed	15:fixed	Translit=iest
 17	aby	aby	SCONJ	comp	_	18	mark	18:mark	Translit=áby
 18	przyszło	przyjść	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	6:advcl	Translit=przyszło
@@ -4377,12 +4377,12 @@
 34	łożyć	łożyć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	33	xcomp	33:xcomp	Translit=łożyć
 35	na	na	ADP	prep:acc	AdpType=Prep	36	case	36:case	Case=Acc|Translit=ná
 36	to	to	PRON	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	34	obl	34:obl	Translit=to
-37	godzin	godzina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	38	nmod:arg	38:nmod:arg	Translit=godzin
-38	24	24	NUM	dig	NumForm=Digit	34	obj	34:obj	SpaceAfter=No|Translit=24
-39	.	.	PUNCT	interp	PunctType=Peri	38	punct	38:punct	Translit=.
-40	i	i	CCONJ	conj	_	42	cc	42:cc	Translit=y
-41	minut	minuta	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	42	nmod:arg	42:nmod:arg	Translit=minut
-42	4	4	NUM	dig	NumForm=Digit	38	conj	34:obj|38:conj	SpaceAfter=No|Translit=4
+37	godzin	godzina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	34	obj	34:obj	Translit=godzin
+38	24	24	NUM	dig	NumForm=Digit	37	nummod	37:nummod	SpaceAfter=No|Translit=24
+39	.	.	PUNCT	interp	PunctType=Peri	37	punct	37:punct	Translit=.
+40	i	i	CCONJ	conj	_	41	cc	41:cc	Translit=y
+41	minut	minuta	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	37	conj	34:obj|37:conj	Translit=minut
+42	4	4	NUM	dig	NumForm=Digit	41	nummod	41:nummod	SpaceAfter=No|Translit=4
 43	.	.	PUNCT	interp	PunctType=Peri	33	punct	33:punct	Translit=.
 
 # sent_id = 836
@@ -4450,7 +4450,7 @@
 # text = Robotnik 7. idzie za pierwszym, i bardziej jeszcze odkrywa piec kofiurem u.
 # text_translit = Robotnik 7. idzie za pierwszym, i bardziey ieszcze odkrywa piec kofiurem u.
 1	Robotnik	robotnik	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj|11:nsubj	Translit=Robotnik
-2	7	7	NUM	dig	NumForm=Digit	1	amod	1:amod	SpaceAfter=No|Translit=7
+2	7	7	NUM	dig	NumForm=Digit	1	nmod	1:nmod	SpaceAfter=No|Translit=7
 3	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	Translit=.
 4	idzie	iść	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=idzie
 5	za	za	ADP	prep:inst	AdpType=Prep	6	case	6:case	Case=Ins|Translit=za
@@ -4476,7 +4476,7 @@
 5	Aureliana	Aurelian	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	3	obl	3:obl	SpaceAfter=No|Translit=Aurelianá
 6	/	/	PUNCT	interp	PunctType=Slsh	10	punct	10:punct	Translit=/
 7	gdy	gdy	ADV	adv	_	10	advmod	10:advmod	Translit=gdy
-8	siła	siła	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	9	nummod	9:nummod	Translit=śiłá
+8	siła	siła	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	9	nummod:gov	9:nummod:gov	Translit=śiłá
 9	Chrześcijan	chrześcijanin	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	10	nsubj	10:nsubj	Translit=Chrześćian
 10	zginęło	zginąć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	3:advcl	Translit=zginęło
 11	dla	dla	ADP	prep:gen	AdpType=Prep	12	case	12:case	Case=Gen|Translit=dla
@@ -4910,9 +4910,9 @@
 11	placu	plac	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	15	nmod:arg	15:nmod:arg	Translit=plácu
 12	dla	dla	ADP	prep:gen	AdpType=Prep	13	case	13:case	Case=Gen|Translit=dla
 13	zatyłku	zatyłek	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	8	obl	8:obl	Translit=zátyłku
-14	po	po	ADP	prep:acc	AdpType=Prep	16	case	16:case	Case=Acc|Translit=po
-15	stóp	stopa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	16	nmod:arg	16:nmod:arg	Translit=stop
-16	8	8	NUM	dig	NumForm=Digit	8	iobj	8:iobj	SpaceAfter=No|Translit=8
+14	po	po	ADP	prep:acc	AdpType=Prep	15	case	15:case	Case=Acc|Translit=po
+15	stóp	stopa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	iobj	8:iobj	Translit=stop
+16	8	8	NUM	dig	NumForm=Digit	15	nummod	15:nummod	SpaceAfter=No|Translit=8
 17	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	Translit=.
 
 # sent_id = 936
@@ -5128,10 +5128,10 @@
 12	;	;	PUNCT	interp	PunctType=Semi	13	punct	13:punct	Translit=;
 13	Celebes	Celebes	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	conj	1:conj	Translit=Celebes
 14	długa	długi	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	13:amod	Translit=długa
-15	na	na	ADP	prep:acc	AdpType=Prep	16	case	16:case	Case=Acc|Translit=ná
-16	105	105	NUM	dig	NumForm=Digit	14	obl	14:obl	SpaceAfter=No|Translit=105
-17	.	.	PUNCT	interp	PunctType=Peri	16	punct	16:punct	Translit=.
-18	mil	mila	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	16	nmod:arg	16:nmod:arg	SpaceAfter=No|Translit=mil
+15	na	na	ADP	prep:acc	AdpType=Prep	18	case	18:case	Case=Acc|Translit=ná
+16	105	105	NUM	dig	NumForm=Digit	18	nummod	18:nummod	SpaceAfter=No|Translit=105
+17	.	.	PUNCT	interp	PunctType=Peri	18	punct	18:punct	Translit=.
+18	mil	mila	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	14	obl	14:obl	SpaceAfter=No|Translit=mil
 19	,	,	PUNCT	interp	PunctType=Comm	20	punct	20:punct	Translit=,
 20	rodząca	rodzić	ADJ	pact:sg:nom:f:imperf:aff:pos	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	13	acl	13:acl	Translit=rodząca
 21	zboże	zboże	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	20	obj	20:obj	SpaceAfter=No|Translit=zboże
@@ -5196,7 +5196,7 @@
 8	jednak	jednak	CCONJ	conj	_	16	cc	16:cc	Translit=iednák
 9	Król	król	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	16:nsubj	Translit=Krol
 10	Jego	on	PRON	ppron3:sg:gen:m:ter:akc:npraep	Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	9	appos	9:appos	Translit=Ie^o^
-11	M	mość	ADV	brev:pun	Abbr=Yes	10	flat	10:flat	SpaceAfter=No|Translit=M
+11	M	mość	NOUN	brev:pun	Abbr=Yes	10	flat	10:flat	SpaceAfter=No|Translit=M
 12	.	.	PUNCT	interp	PunctType=Peri	11	punct	11:punct	Translit=.
 13	nasz	nasz	DET	adj:sg:nom:m:pos	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det:poss	15:det:poss	Translit=nász
 14	Mciwy	mciwy	ADJ	adj:sg:nom:m:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	15:amod	Translit=Mćiwy
@@ -5238,9 +5238,9 @@
 15	któremu	który	DET	adj:sg:dat:m:pos	Case=Dat|Gender=Masc|Number=Sing|PronType=Int	16	det	16:det	Translit=ktoremu
 16	końcowi	koniec	NOUN	subst:sg:dat:m	Case=Dat|Gender=Masc|Number=Sing	21	obl	21:obl	Translit=koncowi
 17	jeszcze	jeszcze	PART	part	_	18	advmod:emph	18:advmod:emph	Translit=ieszcze
-18	2000	2000	NUM	dig	NumForm=Digit	21	obj	21:obj	SpaceAfter=No|Translit=2000
-19	.	.	PUNCT	interp	PunctType=Peri	18	punct	18:punct	Translit=.
-20	Chłopstwa	chłopstwo	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	18	nmod:arg	18:nmod:arg	Translit=Chłopstwa
+18	2000	2000	NUM	dig	NumForm=Digit	20	nummod	20:nummod	SpaceAfter=No|Translit=2000
+19	.	.	PUNCT	interp	PunctType=Peri	20	punct	20:punct	Translit=.
+20	Chłopstwa	chłopstwo	NOUN	subst:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing	21	obj	21:obj	Translit=Chłopstwa
 21	przydano	przydać	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl:relcl	12:advcl:relcl	SpaceAfter=No|Translit=przydáno
 22	/	/	PUNCT	interp	PunctType=Slsh	29	punct	29:punct	Translit=/
 23	do	do	ADP	prep:gen	AdpType=Prep	24	case	24:case	Case=Gen|Translit=do
@@ -5551,14 +5551,14 @@
 # text_translit = Starostwo Sochaczewskie fl. 2000. v 20. Iałowic.
 1	Starostwo	starostwo	NOUN	subst:sg:nom:n	Case=Nom|Gender=Neut|Number=Sing	0	root	0:root	Translit=Starostwo
 2	Sochaczewskie	sochaczewski	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	amod:flat	1:amod:flat	Translit=Sochaczewskie
-3	fl	floren	ADV	brev:pun	Abbr=Yes	5	dep	5:dep	SpaceAfter=No|Translit=fl
+3	fl	floren	NOUN	brev:pun	Abbr=Yes	1	orphan	1:orphan	SpaceAfter=No|Translit=fl
 4	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	Translit=.
-5	2000	2000	NUM	dig	NumForm=Digit	1	orphan	1:orphan	SpaceAfter=No|Translit=2000
-6	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
-7	i	i	CCONJ	conj	_	8	cc	8:cc	Translit=v
-8	20	20	NUM	dig	NumForm=Digit	5	conj	1:orphan|5:conj	SpaceAfter=No|Translit=20
-9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	Translit=.
-10	Jałowic	jałowica	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	nmod:arg	8:nmod:arg	SpaceAfter=No|Translit=Iałowic
+5	2000	2000	NUM	dig	NumForm=Digit	3	nummod	3:nummod	SpaceAfter=No|Translit=2000
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	Translit=.
+7	i	i	CCONJ	conj	_	10	cc	10:cc	Translit=v
+8	20	20	NUM	dig	NumForm=Digit	10	nummod	10:nummod	SpaceAfter=No|Translit=20
+9	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	Translit=.
+10	Jałowic	jałowica	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	conj	1:orphan|3:conj	SpaceAfter=No|Translit=Iałowic
 11	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 
 # sent_id = 1024
@@ -5566,7 +5566,7 @@
 # text = Jak wiele złego uszedł/ opuszczając świat: i jako wiele dobrego dostał/ wstępując do zakonu.
 # text_translit = Iak wiele złego vszedł/ opuszczáiąc świát: u iako wiele dobrego dostał/ wstępuiąc do zakonu.
 1	Jak	jak	ADV	adv:pos	Degree=Pos	3	advmod	3:advmod	Translit=Iak
-2	wiele	wiele	DET	num:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	3	det	3:det	Translit=wiele
+2	wiele	wiele	DET	num:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	3	det:numgov	3:det:numgov	Translit=wiele
 3	złego	złe	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	4	iobj	4:iobj	Translit=złego
 4	uszedł	ujść	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=vszedł
 5	/	/	PUNCT	interp	PunctType=Slsh	6	punct	6:punct	Translit=/
@@ -5575,7 +5575,7 @@
 8	:	:	PUNCT	interp	PunctType=Colo	13	punct	13:punct	Translit=:
 9	i	i	CCONJ	conj	_	13	cc	13:cc	Translit=u
 10	jako	jako	ADV	adv	_	12	advmod	12:advmod	Translit=iako
-11	wiele	wiele	DET	num:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	12	det	12:det	Translit=wiele
+11	wiele	wiele	DET	num:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	12	det:numgov	12:det:numgov	Translit=wiele
 12	dobrego	dobre	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	13	obj	13:obj	Translit=dobrego
 13	dostał	dostać	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	4:conj	SpaceAfter=No|Translit=dostał
 14	/	/	PUNCT	interp	PunctType=Slsh	15	punct	15:punct	Translit=/
@@ -5640,7 +5640,7 @@
 6	dwaj	dwa	NUM	num:pl:nom:manim1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	8	nummod	8:nummod	Translit=dwái
 7	odważni	odważny	ADJ	adj:pl:nom:manim1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	8:amod	Translit=odwaźni
 8	Kawalerowie	kawaler	NOUN	subst:pl:nom:manim1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	3	ccomp:cleft	3:ccomp:cleft	Translit=Káwalerowie
-9	JM	jegomość	ADV	brev:pun	Abbr=Yes	8	appos	8:appos	SpaceAfter=No|Translit=I. M
+9	JM	jegomość	NOUN	brev:pun	Abbr=Yes	8	appos	8:appos	SpaceAfter=No|Translit=I. M
 10	.	.	PUNCT	interp	PunctType=Peri	9	punct	9:punct	Translit=.
 11	Pan	pan	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	9	appos	9:appos	Translit=Pan
 12	Wojewoda	wojewoda	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	11	appos	11:appos	Translit=Woiewodá
@@ -5649,7 +5649,7 @@
 15	Polny	polny	ADJ	adj:sg:nom:m:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	14:amod	Translit=Polny
 16	Koronny	koronny	ADJ	adj:sg:nom:m:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	14:amod	Translit=Koronny
 17	i	i	CCONJ	conj	_	18	cc	18:cc	Translit=y
-18	JM	jegomość	ADV	brev:pun	Abbr=Yes	9	conj	8:appos|9:conj	SpaceAfter=No|Translit=I. M
+18	JM	jegomość	NOUN	brev:pun	Abbr=Yes	9	conj	8:appos|9:conj	SpaceAfter=No|Translit=I. M
 19	.	.	PUNCT	interp	PunctType=Peri	18	punct	18:punct	Translit=.
 20	Pan	pan	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	18	appos	18:appos	Translit=Pan
 21	Podskarbi	podskarbi	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	20	appos	20:appos	Translit=Podskárbi
@@ -5662,7 +5662,7 @@
 # text = połóż sto funtów na jednej szali, czyliż może nieprzeważyć drugiej na tychże wagach szali żadnego niemającej naprzeciwnego ciężaru: zaiste obciążona szala, koniecznie upaść musi, kiedy jej drugi szali waga nie utrzymuje.
 # text_translit = położ sto funtow na iedney szali, czyliż może nieprzeważyć drugiey na tychże wagach szali żadnego niemaiącey naprzeciwnego ciężaru: zaiste obciążona szala, koniecznie upaść musi, kiedy iey drugi szali waga nie utrzymuie.
 1	połóż	położyć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=położ
-2	sto	sto	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	3	nummod	3:nummod	Translit=sto
+2	sto	sto	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	3	nummod:gov	3:nummod:gov	Translit=sto
 3	funtów	funt	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	1	obj	1:obj	Translit=funtow
 4	na	na	ADP	prep:loc	AdpType=Prep	6	case	6:case	Case=Loc|Translit=na
 5	jednej	jeden	ADJ	adjnum:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	6	amod	6:amod	Translit=iedney
@@ -5730,7 +5730,7 @@
 1	Tropy	trop	NOUN	subst:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	13:nsubj	Translit=Tropy
 2	Najaśniejszego	jasny	ADJ	adj:sg:gen:m:sup	Case=Gen|Degree=Sup|Gender=Masc|Number=Sing	3	amod	3:amod	Translit=Naiáśnieyszego
 3	Króla	król	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	1	nmod:poss	1:nmod:poss	Translit=Krolá
-4	JM	jegomość	ADV	brev:pun	Abbr=Yes	3	appos	3:appos	SpaceAfter=No|Translit=I. M
+4	JM	jegomość	NOUN	brev:pun	Abbr=Yes	3	appos	3:appos	SpaceAfter=No|Translit=I. M
 5	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	Translit=.
 6	Polskiego	polski	ADJ	adj:sg:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	3:amod	Translit=Polskiego
 7	Saskie	saski	ADJ	adj:pl:nom:m:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	1:amod	Translit=Sáskie
@@ -5792,7 +5792,7 @@
 7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	8:case	Case=Loc|SpaceAfter=No|Translit=w
 8	stop	stopień	NOUN	brev:pun	Abbr=Yes	5	orphan	5:orphan	SpaceAfter=No|Translit=stop
 9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	Translit=.
-10	12	12	NUM	dig	NumForm=Digit	8	amod	8:amod	SpaceAfter=No|Translit=12
+10	12	12	NUM	dig	NumForm=Digit	8	nmod	8:nmod	SpaceAfter=No|Translit=12
 11	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	Translit=.
 12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	13	case	13:case	Case=Loc|Translit=w
 13	której	który	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Rel	15	orphan	15:orphan	Translit=ktorey
@@ -5801,7 +5801,7 @@
 16	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	17:case	Case=Loc|SpaceAfter=No|Translit=w
 17	stop	stopień	NOUN	brev:pun	Abbr=Yes	15	orphan	15:orphan	SpaceAfter=No|Translit=stop
 18	.	.	PUNCT	interp	PunctType=Peri	17	punct	17:punct	Translit=.
-19	26	26	NUM	dig	NumForm=Digit	17	amod	17:amod	SpaceAfter=No|Translit=26
+19	26	26	NUM	dig	NumForm=Digit	17	nmod	17:nmod	SpaceAfter=No|Translit=26
 20	.	.	PUNCT	interp	PunctType=Peri	19	punct	19:punct	Translit=.
 21	54	54	NUM	dig	NumForm=Digit	19	flat	19:flat	SpaceAfter=No|Translit=54
 22	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
@@ -5882,7 +5882,7 @@
 1	A	a	CCONJ	conj	_	6	cc	6:cc	Translit=A
 2	na	na	ADP	prep:loc	AdpType=Prep	3	case	3:case	Case=Loc|Translit=ná
 3	stronicy	stronica	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	obl	6:obl	Translit=stronicy
-4	22	22	NUM	dig	NumForm=Digit	3	amod	3:amod	Translit=22
+4	22	22	NUM	dig	NumForm=Digit	3	nmod	3:nmod	Translit=22
 5	tamże	tamże	ADV	adv	_	6	advmod	6:advmod	Translit=támże
 6	twierdzi	twierdzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=twierdźi
 7	/	/	PUNCT	interp	PunctType=Slsh	37	punct	37:punct	Translit=/
@@ -5926,9 +5926,9 @@
 1	Nabierz	nabrać	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=Nabierz
 2	ostrego	ostry	ADJ	adj:sg:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	3:amod	Translit=ostrego
 3	cynamonu	cynamon	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	4	nmod:arg	4:nmod:arg	Translit=cynamonu
-4	Łótów	łót	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	5	nmod:arg	5:nmod:arg	Translit=Łotow
-5	8	8	NUM	dig	NumForm=Digit	1	obj	1:obj	SpaceAfter=No|Translit=8
-6	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
+4	Łótów	łót	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	1	obj	1:obj	Translit=Łotow
+5	8	8	NUM	dig	NumForm=Digit	4	nummod	4:nummod	SpaceAfter=No|Translit=8
+6	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	Translit=.
 7	pokrusz	pokruszyć	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	1:conj	Translit=pokrusz
 8	go	on	PRON	ppron3:sg:acc:m:ter:nakc:npraep	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	7	obj	7:obj	Translit=go
 9	drobno	drobno	ADV	adv:pos	Degree=Pos	7	advmod	7:advmod	SpaceAfter=No|Translit=drobno
@@ -5954,7 +5954,7 @@
 29	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	30	advmod	30:advmod	Translit=tak
 30	potrzymaj	potrzymać	VERB	impt:sg:sec:perf	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	conj	1:conj	Translit=potrzymay
 31	dni	dzień	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	30	obl	30:obl	Translit=dni
-32	ósm	ósm	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	31	nummod	31:nummod	SpaceAfter=No|Translit=ósm
+32	ósm	ósm	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	31	nummod:gov	31:nummod:gov	SpaceAfter=No|Translit=ósm
 33	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 
 # sent_id = 1063
@@ -6109,7 +6109,7 @@
 34	obrony	obrona	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	33	nmod:arg	33:nmod:arg	Translit=obrony
 35	do	do	ADP	prep:gen	AdpType=Prep	36	case	36:case	Case=Gen|Translit=do
 36	odporu	odpór	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	28	obl	28:obl	Translit=odporu
-37	Ich	on	PRON	ppron3:pl:gen:m:ter:neut:npraep	Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	38	obl:agent	38:obl:agent	Translit=Jch
+37	Ich	on	PRON	ppron3:pl:gen:m:ter:neut:npraep	Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	38	nmod	38:nmod	Translit=Jch
 38	usiłowaniu	usiłować	NOUN	ger:sg:dat:n:imperf:aff	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	36	nmod:arg	36:nmod:arg	SpaceAfter=No|Translit=usiłowaniu
 39	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	Translit=.
 
@@ -6176,7 +6176,7 @@
 # text = Nazajutrz JMKs. Arcybiskup dla niesposobności zdrowia do Łowicza zwykłej swej powrócił Rezydencjej.
 # text_translit = Názáiutrz J. M. X. Arcybiskup dla niesposobnośći zdrowia do Lowiczá zwykłey swey powrocił Residencyey.
 1	Nazajutrz	nazajutrz	ADV	adv	_	12	advmod	12:advmod	Translit=Názáiutrz
-2	JMKs	jegomość_ksiądz	ADV	brev:pun	Abbr=Yes	12	xcomp:subj	12:xcomp:subj	SpaceAfter=No|Translit=J. M. X
+2	JMKs	jegomość_ksiądz	NOUN	brev:pun	Abbr=Yes	12	nsubj	12:nsubj	SpaceAfter=No|Translit=J. M. X
 3	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	Translit=.
 4	Arcybiskup	arcybiskup	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	2	appos	2:appos	Translit=Arcybiskup
 5	dla	dla	ADP	prep:gen	AdpType=Prep	6	case	6:case	Case=Gen|Translit=dla
@@ -6273,7 +6273,7 @@
 # text = Bo kilka set lat dopiero po Panu Chrystusie moc wzięła ta nauka/ która dziś płuży w Chrześcijaństwie.
 # text_translit = Bo kilká set lat dopiero po Pánu Christuśie moc wźięłá tá náuká/ ktora dźiś płuży w Chrześćiáństwie.
 1	Bo	bo	SCONJ	comp	_	10	mark	10:mark	Translit=Bo
-2	kilka	kilka	DET	num:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	3	det	3:det	Translit=kilká
+2	kilka	kilka	DET	num:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	3	det:numgov	3:det:numgov	Translit=kilká
 3	set	sto	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	7	nmod	7:nmod	Translit=set
 4	lat	rok	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	3	nmod:arg	3:nmod:arg	Translit=lat
 5	dopiero	dopiero	PART	part	_	3	advmod:emph	3:advmod:emph	Translit=dopiero
@@ -6303,7 +6303,7 @@
 5	P	pan	NOUN	brev:pun	Abbr=Yes	4	appos	4:appos	SpaceAfter=No|Translit=P
 6	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
 7	Chorąży	chorąży	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	5	appos	5:appos	Translit=Chorąży
-8	Kor	koronny	ADV	brev:pun	Abbr=Yes	7	nmod	7:nmod	SpaceAfter=No|Translit=Kor
+8	Kor	koronny	ADJ	brev:pun	Abbr=Yes	7	amod	7:amod	SpaceAfter=No|Translit=Kor
 9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	Translit=.
 10	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	12	case	12:case	Case=Acc|Translit=w
 11	przyszły	przyszły	ADJ	adj:sg:acc:m:pos	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	12:amod	Translit=przyszły
@@ -6381,9 +6381,9 @@
 7	chciał	chcieć	VERB	praet:sg:m:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=chciał
 8	,	,	PUNCT	interp	PunctType=Comm	13	punct	13:punct	Translit=,
 9	tedy	tedy	CCONJ	conj	_	13	cc	13:cc	Translit=tedy
-10	dwoje	dwa	NUM	numcol:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur|NumForm=Word	13	nsubj	13:nsubj	Translit=dwoje
-11	czternaście	czternaście	NUM	num:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur|NumForm=Word	12	nummod	12:nummod	Translit=czternaście
-12	grzywien	grzywna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	nmod:arg	10:nmod:arg	Translit=grzywien
+10	dwoje	dwa	NUM	numcol:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur|NumForm=Word	12	nummod	12:nummod	Translit=dwoje
+11	czternaście	czternaście	NUM	num:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur|NumForm=Word	12	nummod:gov	12:nummod:gov	Translit=czternaście
+12	grzywien	grzywna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	13	nsubj	13:nsubj	Translit=grzywien
 13	przepada	przepadać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	7:conj	SpaceAfter=No|Translit=przepada
 14	,	,	PUNCT	interp	PunctType=Comm	22	punct	22:punct	Translit=,
 15	o	o	ADP	prep:acc	AdpType=Prep	16	case	16:case	Case=Acc|Translit=o
@@ -6393,7 +6393,7 @@
 19	Urzędzie	urząd	NOUN	subst:sg:loc:m	Case=Loc|Gender=Masc|Number=Sing	21	obl	21:obl	Translit=Urzędzie
 20	swym	swój	DET	adj:sg:loc:m:pos	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	19	det:poss	19:det:poss	Translit=swym
 21	czynić	czynić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	22:xcomp	Translit=czynić
-22	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	10:acl:relcl	SpaceAfter=No|Translit=ma
+22	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	12:acl:relcl	SpaceAfter=No|Translit=ma
 23	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	Translit=.
 
 # sent_id = 1148
@@ -6402,10 +6402,10 @@
 # text_translit = Rezydencya záś Naiaśn: Krolowi I. M. do czásu Koronácyey ná Łobzowie náznáczyli.
 1	Rezydencją	rezydencja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	obj	13:obj	Translit=Rezydencya
 2	zaś	zaś	CCONJ	conj	_	13	cc	13:cc	Translit=záś
-3	Najaśn	najaśniejszy	ADV	brev:pun	Abbr=Yes	5	nmod	5:nmod	SpaceAfter=No|Translit=Naiaśn
+3	Najaśn	najaśniejszy	ADJ	brev:pun	Abbr=Yes	5	amod	5:amod	SpaceAfter=No|Translit=Naiaśn
 4	:	:	PUNCT	interp	PunctType=Colo	3	punct	3:punct	Translit=:
 5	Królowi	król	NOUN	subst:sg:dat:m	Case=Dat|Gender=Masc|Number=Sing	13	iobj	13:iobj	Translit=Krolowi
-6	JM	jegomość	ADV	brev:pun	Abbr=Yes	5	appos	5:appos	SpaceAfter=No|Translit=I. M
+6	JM	jegomość	NOUN	brev:pun	Abbr=Yes	5	appos	5:appos	SpaceAfter=No|Translit=I. M
 7	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	Translit=.
 8	do	do	ADP	prep:gen	AdpType=Prep	9	case	9:case	Case=Gen|Translit=do
 9	czasu	czas	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	13	obl	13:obl	Translit=czásu
@@ -6614,7 +6614,7 @@
 25	jeden	jeden	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	28:nsubj	Translit=ieden
 26	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	27	case	27:case	Case=Gen|Translit=od
 27	drugiego	drugi	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	28	obl:arg	28:obl:arg	Translit=drugiego
-28	uczy	uczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	8:ccomp|18:conj	SpaceAfter=No|Translit=uczy
+28	uczy	uczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	6:ccomp|18:conj	SpaceAfter=No|Translit=uczy
 29	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	Translit=.
 
 # sent_id = 1195
@@ -6820,13 +6820,13 @@
 6	jego	on	PRON	ppron3:sg:gen:m:ter:akc:npraep	Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	7	nmod	7:nmod	Translit=iego
 7	służbę	służba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obl:arg	4:obl:arg	SpaceAfter=No|Translit=służbę
 8	,	,	PUNCT	interp	PunctType=Comm	4	punct	4:punct	Translit=,
-9	wspierał	wspierać	VERB	praet:sg:m:imperf:agl	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=wśpierał
+9	wspierał	wspierać	VERB	praet:sg:m:imperf:agl	Agglutination=Agl|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=wśpierał
 10	go	on	PRON	ppron3:sg:acc:m:ter:nakc:npraep	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	9	obj	9:obj	Translit=go
 11	jednak	jednak	CCONJ	conj	_	9	cc	9:cc	Translit=iednak
 12	radą	rada	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	9	iobj	9:iobj	Translit=radą
 13	swoją	swój	DET	adj:sg:inst:f:pos	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det:poss	12:det:poss	Translit=swoią
 14	i	i	CCONJ	conj	_	15	cc	15:cc	Translit=i
-15	pomógł	pomóc	VERB	praet:sg:m:perf:nagl	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	9:conj	Translit=pomógł
+15	pomógł	pomóc	VERB	praet:sg:m:perf:nagl	Agglutination=Nagl|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	9:conj	Translit=pomógł
 16	bardzo	bardzo	ADV	adv:pos	Degree=Pos	17	advmod	17:advmod	Translit=bardzo
 17	wiele	wiele	ADV	adv	_	15	advmod	15:advmod	Translit=wiele
 18	do	do	ADP	prep:gen	AdpType=Prep	19	case	19:case	Case=Gen|Translit=do
@@ -6944,14 +6944,14 @@
 1	Naleziono	naleźć	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=Naleziono
 2	tamże	tamże	ADV	adv	_	1	advmod	1:advmod	Translit=tamże
 3	około	około	PART	part	_	4	advmod:emph	4:advmod:emph	Translit=około
-4	dwadzieścia	dwadzieścia	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	5	nummod	5:nummod	Translit=dwadzieścia
+4	dwadzieścia	dwadzieścia	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	5	nummod:gov	5:nummod:gov	Translit=dwadzieścia
 5	szabel	szabla	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	obj	1:obj	Translit=szabel
 6	takowych	takowy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	5	amod	5:amod	SpaceAfter=No|Translit=takowych
 7	,	,	PUNCT	interp	PunctType=Comm	9	punct	9:punct	Translit=,
-8	tyleż	tyleż	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Dem	9	det	9:det	Translit=tyleż
+8	tyleż	tyleż	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Dem	9	det:numgov	9:det:numgov	Translit=tyleż
 9	łuków	łuk	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	5	conj	1:obj|5:conj	Translit=łukow
 10	i	i	CCONJ	conj	_	13	cc	13:cc	Translit=y
-11	wiele	wiele	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	13	det	13:det	Translit=wiele
+11	wiele	wiele	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	13	det:numgov	13:det:numgov	Translit=wiele
 12	bardzo	bardzo	ADV	adv:pos	Degree=Pos	13	advmod	13:advmod	Translit=bardzo
 13	pocisków	pocisk	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	5	conj	1:obj|5:conj	SpaceAfter=No|Translit=pociskow
 14	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
@@ -7001,7 +7001,7 @@
 4	wołali	wołać	VERB	praet:pl:manim1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	Translit=wołali
 5	król	król	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	Translit=krol
 6	Sam	sam	ADJ	adj:sg:nom:m:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	obl	7:obl	Translit=Sam
-7	kazał	kazać	VERB	praet:sg:m:biasp	Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=kazał
+7	kazał	kazać	VERB	praet:sg:m:biasp	Aspect=Imp,Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=kazał
 8	ich	on	PRON	ppron3:pl:acc:manim1:ter:neut:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	10	obj	10:obj|12:obj	Translit=ich
 9	wszytkich	wszytek	ADJ	adj:pl:acc:manim1:pos	Animacy=Hum|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	8:amod	Translit=wszytkich
 10	wycinać	wycinać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	7:xcomp	Translit=wycinac
@@ -7014,7 +7014,7 @@
 # text = Suplikuję W. Państwa Dobrodziejstwa; nie żenujcie się dla mnie.
 # text_translit = Suplikuię W. Państwa Dobrodzieystwa; nie żenuycie się dla mnie.
 1	Suplikuję	suplikować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=Suplikuię
-2	W	waszmość	ADV	brev:pun	Abbr=Yes	1	obj	1:obj	SpaceAfter=No|Translit=W
+2	W	waszmość	NOUN	brev:pun	Abbr=Yes	1	obj	1:obj	SpaceAfter=No|Translit=W
 3	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	Translit=.
 4	Państwa	państwo	NOUN	subst:pl:acc:manim1:pt	Animacy=Hum|Case=Acc|Gender=Masc|Number=Ptan	2	appos	2:appos	Translit=Państwa
 5	Dobrodziejstwa	dobrodziejstwo	NOUN	subst:pl:acc:manim1:pt	Animacy=Hum|Case=Acc|Gender=Masc|Number=Ptan	4	appos	4:appos	SpaceAfter=No|Translit=Dobrodzieystwa
@@ -7032,32 +7032,32 @@
 # text_translit = 1718. Dwoie od práwi się złączenia wyzszych Plánetow Pierwsze złączenie mnieysze Iowiszá y Marsa przypádnie dn. 8. Sierp. god. 3. m. 29. popołudniu.
 1	1718	1718	NUM	dig	NumForm=Digit	4	list	4:list	SpaceAfter=No|Translit=1718
 2	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
-3	Dwoje	dwa	NUM	numcol:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	4	nsubj	4:nsubj	Translit=Dwoie
+3	Dwoje	dwa	NUM	numcol:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	6	nummod	6:nummod	Translit=Dwoie
 4	odprawi	odprawić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=od práwi
 5	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	Translit=się
-6	złączenia	złączyć	NOUN	ger:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Vnoun	3	nmod:arg	3:nmod:arg	Translit=złączenia
+6	złączenia	złączyć	NOUN	ger:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Vnoun	4	nsubj	4:nsubj	Translit=złączenia
 7	wyższych	wysoki	ADJ	adj:pl:gen:m:com	Case=Gen|Degree=Cmp|Gender=Masc|Number=Plur	8	amod	8:amod	Translit=wyzszych
 8	Planetów	planet	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	6	obj	6:obj	Translit=Plánetow
 9	Pierwsze	pierwszy	ADJ	adjnum:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	10	amod	10:amod	Translit=Pierwsze
 10	złączenie	złączyć	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	15	obj	15:obj	Translit=złączenie
 11	mniejsze	mały	ADJ	adj:sg:nom:n:com	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	10	amod	10:amod	Translit=mnieysze
-12	Jowisza	Jowisz	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	10	obl:agent	10:obl:agent	Translit=Iowiszá
+12	Jowisza	Jowisz	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	10	nmod	10:nmod	Translit=Iowiszá
 13	i	i	CCONJ	conj	_	14	cc	14:cc	Translit=y
-14	Marsa	Mars	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	12	conj	10:obl:agent|12:conj	Translit=Marsa
+14	Marsa	Mars	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	12	conj	10:nmod|12:conj	Translit=Marsa
 15	przypadnie	przypaść	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	4:conj	Translit=przypádnie
 16	dn	dzień	NOUN	brev:pun	Abbr=Yes	15	obl	15:obl	SpaceAfter=No|Translit=dn
 17	.	.	PUNCT	interp	PunctType=Peri	16	punct	16:punct	Translit=.
-18	8	8	NUM	dig	NumForm=Digit	16	amod	16:amod	SpaceAfter=No|Translit=8
+18	8	8	NUM	dig	NumForm=Digit	16	nmod	16:nmod	SpaceAfter=No|Translit=8
 19	.	.	PUNCT	interp	PunctType=Peri	18	punct	18:punct	Translit=.
 20	Sierp	sierpień	NOUN	brev:pun	Abbr=Yes	18	nmod:flat	18:nmod:flat	SpaceAfter=No|Translit=Sierp
 21	.	.	PUNCT	interp	PunctType=Peri	20	punct	20:punct	Translit=.
 22	god	godzina	NOUN	brev:pun	Abbr=Yes	16	nmod	16:nmod	SpaceAfter=No|Translit=god
 23	.	.	PUNCT	interp	PunctType=Peri	22	punct	22:punct	Translit=.
-24	3	3	NUM	dig	NumForm=Digit	22	amod	22:amod	SpaceAfter=No|Translit=3
+24	3	3	NUM	dig	NumForm=Digit	22	nmod	22:nmod	SpaceAfter=No|Translit=3
 25	.	.	PUNCT	interp	PunctType=Peri	24	punct	24:punct	Translit=.
 26	m	minuta	NOUN	brev:pun	Abbr=Yes	24	nmod:flat	24:nmod:flat	SpaceAfter=No|Translit=m
 27	.	.	PUNCT	interp	PunctType=Peri	26	punct	26:punct	Translit=.
-28	29	29	NUM	dig	NumForm=Digit	26	flat	26:flat	SpaceAfter=No|Translit=29
+28	29	29	NUM	dig	NumForm=Digit	26	nummod:flat	26:nummod:flat	SpaceAfter=No|Translit=29
 29	.	.	PUNCT	interp	PunctType=Peri	28	punct	28:punct	Translit=.
 30	po	po	ADP	prep:loc	AdpType=Prep	31	case	31:case	Case=Loc|SpaceAfter=No|Translit=po
 31	południu	południe	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	22	nmod	22:nmod	SpaceAfter=No|Translit=południu
@@ -7156,7 +7156,7 @@
 4	Kafenhauzie	kafenhauz	NOUN	subst:sg:loc:m	Case=Loc|Gender=Masc|Number=Sing	1	obl	1:obl	Translit=Kafenhauzie
 5	gdzie	gdzie	ADV	adv	PronType=Rel	6	advmod	6:advmod	Translit=gdzie
 6	widuję	widywać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	4:acl:relcl	Translit=widuię
-7	wiele	wiele	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	8	det	8:det	Translit=wiele
+7	wiele	wiele	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	8	det:numgov	8:det:numgov	Translit=wiele
 8	Turków	Turek	PROPN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	6	obj	6:obj	SpaceAfter=No|Translit=Turków
 9	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	Translit=,
 10	którzy	który	DET	adj:pl:nom:manim1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	12	nsubj	12:nsubj|16:nsubj	Translit=którzy
@@ -7206,7 +7206,7 @@
 32	pokoju	pokój	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	31	obj	31:obj	Translit=pokoiu
 33	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	34	case	34:case	Case=Ins|Translit=z
 34	Królem	król	NOUN	subst:sg:inst:m	Case=Ins|Gender=Masc|Number=Sing	31	nmod	31:nmod	Translit=Krolem
-35	JM	jegomość	ADV	brev:pun	Abbr=Yes	34	appos	34:appos	SpaceAfter=No|Translit=I. M
+35	JM	jegomość	NOUN	brev:pun	Abbr=Yes	34	appos	34:appos	SpaceAfter=No|Translit=I. M
 36	.	.	PUNCT	interp	PunctType=Peri	35	punct	35:punct	Translit=.
 37	Polskim	polski	ADJ	adj:sg:inst:m:pos	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	34	amod	34:amod	SpaceAfter=No|Translit=Polskim
 38	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
@@ -7222,7 +7222,7 @@
 5	trzech	trzy	NUM	num:pl:loc:m	Case=Loc|Gender=Masc|Number=Plur|NumForm=Word	6	nummod	6:nummod	Translit=trzech
 6	Punktach	punkt	NOUN	subst:pl:loc:m	Case=Loc|Gender=Masc|Number=Plur	10	obl:arg	10:obl:arg	SpaceAfter=No|Translit=Punktách
 7	,	,	PUNCT	interp	PunctType=Comm	6	punct	6:punct	Translit=,
-8	ośm	ośm	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	9	nummod	9:nummod	Translit=ośm
+8	ośm	ośm	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	9	nummod:gov	9:nummod:gov	Translit=ośm
 9	godzin	godzina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	obl	10:obl	Translit=godźin
 10	bawili	bawić	VERB	praet:pl:manim1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=báwili
 11	się	się	PRON	part	PronType=Prs|Reflex=Yes	10	expl:pv	10:expl:pv	Translit=się
@@ -7247,7 +7247,7 @@
 30	,	,	PUNCT	interp	PunctType=Comm	32	punct	32:punct	Translit=,
 31	które	który	DET	adj:pl:acc:f:pos	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	32	obj	32:obj	Translit=ktore
 32	podał	podać	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	acl:relcl	26:acl:relcl|29:acl:relcl	Translit=podał
-33	JM	jegomość	ADV	brev:pun	Abbr=Yes	32	xcomp:subj	32:xcomp:subj	SpaceAfter=No|Translit=I. M
+33	JM	jegomość	NOUN	brev:pun	Abbr=Yes	32	nsubj	32:nsubj	SpaceAfter=No|Translit=I. M
 34	.	.	PUNCT	interp	PunctType=Peri	33	punct	33:punct	Translit=.
 35	Pan	pan	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	33	appos	33:appos	Translit=Pan
 36	Poseł	poseł	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	35	appos	35:appos	Translit=Poseł
@@ -7404,7 +7404,7 @@
 25	nie	nie	PART	part	Polarity=Neg	26	advmod:neg	26:advmod:neg	Translit=nie
 26	miał	mieć	VERB	praet:sg:m:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	1:conj	Translit=miał
 27	lat	rok	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	26	iobj	26:iobj	Translit=lat
-28	więcej	więcej	DET	num:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	27	det	27:det	Translit=więcey
+28	więcej	więcej	DET	num:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur|PronType=Ind	27	det:nummod	27:det:nummod	Translit=więcey
 29	trzydziestu	trzydzieści	NUM	num:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur|NumForm=Word	28	obl:cmp	28:obl:cmp	Translit=trzydziestu
 30	dziewięciu	dziewięć	NUM	num:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur|NumForm=Word	29	flat	29:flat	SpaceAfter=No|Translit=dziewięciu
 31	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
@@ -7437,7 +7437,7 @@
 4	którą	który	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	10	obj	10:obj	Translit=ktorą
 5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	6:case	Case=Gen|Translit=z
 6	niej	on	PRON	ppron3:sg:gen:f:ter:neut:praep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	10	obl	10:obl	Translit=niey
-7	11	11	NUM	dig	NumForm=Digit	9	amod	9:amod	SpaceAfter=No|Translit=11
+7	11	11	NUM	dig	NumForm=Digit	9	nmod	9:nmod	SpaceAfter=No|Translit=11
 8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	Translit=.
 9	dnia	dzień	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	10	obl	10:obl	Translit=dnia
 10	uczyniono	uczynić	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	3:acl:relcl	SpaceAfter=No|Translit=uczyniono
@@ -7453,7 +7453,7 @@
 20	minutach	minuta	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	18	obl	18:obl	Translit=minutach
 21	dziewięciu	dziewięć	NUM	num:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur|NumForm=Word	20	nummod	20:nummod	SpaceAfter=No|Translit=dziewięciu
 22	,	,	PUNCT	interp	PunctType=Comm	32	punct	32:punct	Translit=,
-23	ośmiu	osiem	NUM	num:pl:acc:manim1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	24	nummod	24:nummod	Translit=ośmiu
+23	ośmiu	osiem	NUM	num:pl:acc:manim1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	24	nummod:gov	24:nummod:gov	Translit=ośmiu
 24	ludzi	człowiek	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	32	nsubj:pass	32:nsubj:pass	Translit=ludzi
 25	którzy	który	DET	adj:pl:nom:manim1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	27	nsubj	27:nsubj	Translit=ktorzy
 26	ją	on	PRON	ppron3:sg:acc:f:ter:neut:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	27	obj	27:obj	Translit=ią
@@ -7465,12 +7465,12 @@
 32	podniesionemi	podnieść	ADJ	ppas:pl:inst:m:perf:aff:pos	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	conj	12:conj	Translit=podniesionemi
 33	na	na	ADP	prep:acc	AdpType=Prep	34	case	34:case	Case=Acc|Translit=ná
 34	stóp	stopa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	32	obl	32:obl	Translit=stop
-35	kilka	kilka	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	34	det	34:det	Translit=kilka
+35	kilka	kilka	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	34	det:numgov	34:det:numgov	Translit=kilka
 36	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	37	case	37:case	Case=Gen|Translit=od
 37	ziemi	ziemia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	34	nmod	34:nmod	SpaceAfter=No|Translit=ziemi
 38	,	,	PUNCT	interp	PunctType=Comm	42	punct	42:punct	Translit=,
 39	i	i	CCONJ	conj	_	42	cc	42:cc	Translit=i
-40	więcej	więcej	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	41	det	41:det	Translit=więcey
+40	więcej	więcej	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	41	det:numgov	41:det:numgov	Translit=więcey
 41	sił	siła	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	42	iobj	42:iobj	Translit=sił
 42	potrzeba	potrzeba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	12	conj	12:conj	Translit=potrzeba
 43	było	być	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	42	aux	42:aux	Translit=było
@@ -7524,7 +7524,7 @@
 18	Iż	iż	SCONJ	comp	_	23	mark	23:mark	Translit=Iż
 19	bez	bez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	20	case	20:case	Case=Acc|Translit=bez
 20	lat	rok	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	25	obl	25:obl	Translit=lat
-21	pięć	pięć	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	20	nummod	20:nummod	Translit=pięc
+21	pięć	pięć	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	20	nummod:gov	20:nummod:gov	Translit=pięc
 22	nie	nie	PART	part	Polarity=Neg	23	advmod:neg	23:advmod:neg	Translit=nie
 23-24	miałaby	_	_	_	_	_	_	_	Translit=miałaby
 23	miała	mieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	ccomp:obj	16:ccomp:obj	Translit=miała
@@ -7677,7 +7677,7 @@
 18	niniejszego	niniejszy	ADJ	adj:sg:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	19:amod	Translit=ninieyszego
 19	Biskupa	biskup	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	1	obl	1:obl	SpaceAfter=No|Translit=Biskupá
 20	/	/	PUNCT	interp	PunctType=Slsh	21	punct	21:punct	Translit=/
-21	kapłanów	kapłan	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	23	obl:agent	23:obl:agent	Translit=káplanow
+21	kapłanów	kapłan	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	23	nmod	23:nmod	Translit=káplanow
 22	porządne	porządny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	23	amod	23:amod	Translit=porządne
 23	następowanie	następować	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	nsubj	1:nsubj	SpaceAfter=No|Translit=nástępowánie
 24	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
@@ -7790,7 +7790,7 @@
 14	Delegaci	delegat	NOUN	subst:pl:nom:manim1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	12	appos	12:appos	Translit=Delegaci
 15	rotą	rota	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	23	iobj	23:iobj	Translit=rotą
 16	Konstytucji	konstytucja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	18	obl	18:obl	Translit=Konstytuciy
-17	1699	1699	NUM	dig	NumForm=Digit	16	amod	16:amod	Translit=1699
+17	1699	1699	NUM	dig	NumForm=Digit	16	nmod	16:nmod	Translit=1699
 18	opisaną	opisać	ADJ	ppas:sg:inst:f:perf:aff:pos	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	acl	15:acl	SpaceAfter=No|Translit=opisaną
 19	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	Translit=,
 20	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	22	case	22:case	Case=Loc|SpaceAfter=No|Translit=w
@@ -7857,7 +7857,7 @@
 # sent_id = 1405
 # orig_file_sentence = korba2_manual#JezierCzartWypis#segm_1.134-s
 # text = Skoro się dowiedział Drapiwór o Wichropęda zamysłach, stawił się co rychlej przedSąd na czas wyznaczony, a Sąd ten trzymał sam Leszek w wielkim kole za Miastem, zasiadłszy na stolcu złocistym.
-# text_translit = Skoro się dowiedział Drapiwor o Wichropęda zamysłach, stawił się co rychley przed Sąd na czas wyznaczony, a Sąd ten trzymał sam Leszek w wielkim kole za Miastem, zasiadłszy na stolcu złocistym.
+# text_translit = Skoro się dowiedział Drapiwor o Wichropęda zamysłach, stawił się co rychley przedSąd na czas wyznaczony, a Sąd ten trzymał sam Leszek w wielkim kole za Miastem, zasiadłszy na stolcu złocistym.
 1	Skoro	skoro	SCONJ	comp	_	3	mark	3:mark	Translit=Skoro
 2	się	się	PRON	part	PronType=Prs|Reflex=Yes	3	expl:pv	3:expl:pv	Translit=się
 3	dowiedział	dowiedzieć	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	9:advcl	Translit=dowiedział
@@ -8089,7 +8089,7 @@
 # orig_file_sentence = korba2_manual#KościółPog#segm_1.204-s
 # text = Najprzód, żeby ten, któryby dnia Reprezentacji życzył sobie do ogrodu wniść, raczył bilet zakupić, a jeśliby nie miał woli przy Reprezentacji się zostać, wtedy mu za oddaniem biletu pieniądze wrócone będą.
 # text_translit = Nayprzod, żeby ten, któryby dnia Reprezentacyi życzył sobie do ogrodu wniść, raczył bilet zakupić, a ieśliby nie miał woli przy Reprezentacyi się zostać, w tedy mu za oddaniem biletu pieniądze wrócone będą.
-1	Najprzód	najprzód	ADV	adv	_	16	parataxis:insert	3:parataxis:insert	SpaceAfter=No|Translit=Nayprzod
+1	Najprzód	najprzód	ADV	adv	_	16	parataxis:insert	16:parataxis:insert	SpaceAfter=No|Translit=Nayprzod
 2	,	,	PUNCT	interp	PunctType=Comm	1	punct	1:punct	Translit=,
 3	żeby	żeby	SCONJ	comp	_	16	mark	16:mark|37:mark	Translit=żeby
 4	ten	ten	DET	adj:sg:nom:m:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	16:nsubj	SpaceAfter=No|Translit=ten
@@ -8163,7 +8163,7 @@
 8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	9	case	9:case	Case=Ins|Translit=z
 9	Polaki	Polak	PROPN	subst:pl:inst:m	Case=Ins|Gender=Masc|Number=Plur	10	nmod:arg	10:nmod:arg	Translit=Polaki
 10	bitwę	bitwa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	obj	11:obj	Translit=bitwę
-11	zwiódł	zwieść	VERB	praet:sg:m:perf:nagl	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	Translit=zwiodł
+11	zwiódł	zwieść	VERB	praet:sg:m:perf:nagl	Agglutination=Nagl|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	advcl	16:advcl	Translit=zwiodł
 12	nieszczęśliwie	nieszczęśliwie	ADV	adv:pos	Degree=Pos	11	advmod	11:advmod	SpaceAfter=No|Translit=nieszczęśliwie
 13	/	/	PUNCT	interp	PunctType=Slsh	11	punct	11:punct	Translit=/
 14	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	15	case	15:case	Case=Gen|Translit=z
@@ -8523,7 +8523,7 @@
 2	Cekauza	cekauz	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	8	obl	8:obl	Translit=Cekauzá
 3	zaś	zaś	CCONJ	conj	_	8	cc	8:cc	Translit=záś
 4	tutecznego	tuteczny	ADJ	adj:sg:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	amod	2:amod	Translit=tutecznego
-5	kilkanaście	kilkanaście	DET	num:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	7	det	7:det	Translit=kilkanáśćie
+5	kilkanaście	kilkanaście	DET	num:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	7	det:numgov	7:det:numgov	Translit=kilkanáśćie
 6	polnych	polny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	7	amod	7:amod	Translit=polnych
 7	Dział	działo	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	8	obj	8:obj	Translit=Dżiał
 8	wprowadzono	wprowadzić	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=wprowádzono
@@ -8545,7 +8545,7 @@
 24	i	i	CCONJ	conj	_	25	cc	25:cc	Translit=y
 25	prezentując	prezentować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	22	conj	20:advcl|22:conj	Translit=prezentuiąc
 26	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	27	case	27:case	Case=Ins|Translit=przed
-27	JM	jegomość	ADV	brev:pun	Abbr=Yes	25	advmod	25:advmod	SpaceAfter=No|Translit=J. M
+27	JM	jegomość	NOUN	brev:pun	Abbr=Yes	25	obl	25:obl	SpaceAfter=No|Translit=J. M
 28	.	.	PUNCT	interp	PunctType=Peri	27	punct	27:punct	Translit=.
 29	Panem	pan	NOUN	subst:sg:inst:m	Case=Ins|Gender=Masc|Number=Sing	27	appos	27:appos	Translit=Pánem
 30	Generałem	generał	NOUN	subst:sg:inst:m	Case=Ins|Gender=Masc|Number=Sing	29	appos	29:appos	Translit=Generałem
@@ -8560,8 +8560,8 @@
 39	tak	tak	PART	part	_	41	cc:preconj	41:cc:preconj	Translit=ták
 40	tu	tu	ADV	adv	PronType=Dem	41	advmod	41:advmod	Translit=tu
 41	będącymi	być	ADJ	pact:pl:inst:m:imperf:aff:pos	Aspect=Imp|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	36	acl	36:acl	Translit=będącymi
-42	jako	jako	CCONJ	conj	_	47	cc	47:cc	Translit=iáko
-43	też	też	PART	part	_	41	advmod:emph	41:advmod:emph|47:advmod:emph	Translit=też
+42	jako	jako	CCONJ	conj	ExtPos=CCONJ	47	cc	47:cc	Translit=iáko
+43	też	też	PART	part	_	42	fixed	42:fixed	Translit=też
 44	okolicznie	okolicznie	ADV	adv:pos	Degree=Pos	47	advmod	47:advmod	Translit=okolicznie
 45	po	po	ADP	prep:loc	AdpType=Prep	46	case	46:case	Case=Loc|Translit=po
 46	Włościach	włość	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	47	obl	47:obl	Translit=Włośćiách
@@ -8613,11 +8613,11 @@
 # orig_file_sentence = korba2_manual#NaruszAHist#segm_1.16-s
 # text = XXV. Liga Henryka V. cesarza z Świętopełkiem książęciem Czeskim przeciwko królowi.
 # text_translit = XXV. Liga Henryka V. cesarza z Swiętopełkiem książęciem Czeskim przeciwko królowi.
-1	XXV	XXV	X	romandig	NumForm=Roman	3	list	3:list	SpaceAfter=No|Translit=XXV
+1	XXV	XXV	NUM	romandig	NumForm=Roman	3	list	3:list	SpaceAfter=No|Translit=XXV
 2	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 3	Liga	liga	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	Translit=Liga
 4	Henryka	Henryk	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	3	nmod:poss	3:nmod:poss	Translit=Henryka
-5	V	V	X	romandig	NumForm=Roman	4	flat	4:flat	SpaceAfter=No|Translit=V
+5	V	V	NUM	romandig	NumForm=Roman	4	nummod:flat	4:nummod:flat	SpaceAfter=No|Translit=V
 6	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
 7	cesarza	cesarz	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	4	appos	4:appos	Translit=cesarza
 8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	9	case	9:case	Case=Ins|Translit=z
@@ -8668,7 +8668,7 @@
 4	potrzebną	potrzebny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	obl	2:obl	Translit=potrzebną
 5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	9:case	Case=Loc|Translit=w
 6	tych	ten	DET	adj:pl:loc:m:pos	Case=Loc|Gender=Masc|Number=Plur|PronType=Dem	9	det	9:det	Translit=tych
-7	kilku	kilka	DET	num:pl:loc:m	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	9	det	9:det	Translit=kilku
+7	kilku	kilka	DET	num:pl:loc:m	Case=Loc|Gender=Masc|Number=Plur|PronType=Ind	9	det:nummod	9:det:nummod	Translit=kilku
 8	opisywać	opisywać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	2:xcomp	Translit=opisywáć
 9	arkuszach	arkusz	NOUN	subst:pl:loc:m	Case=Loc|Gender=Masc|Number=Plur	8	obl	8:obl	SpaceAfter=No|Translit=árkuszách
 10	;	;	PUNCT	interp	PunctType=Semi	16	punct	16:punct	Translit=;
@@ -8888,18 +8888,18 @@
 13	więcej	dużo	ADV	adv:com	Degree=Cmp	11	xcomp:subj	11:xcomp:subj	SpaceAfter=No|Translit=więcey
 14	,	,	PUNCT	interp	PunctType=Comm	15	punct	15:punct	Translit=,
 15	jak	jak	CCONJ	conj	_	13	obl:cmp	13:obl:cmp	Translit=iak
-16	10	10	NUM	dig	NumForm=Digit	18	nummod	18:nummod	SpaceAfter=No|Translit=10
+16	10	10	NUM	dig	NumForm=Digit	20	nummod	20:nummod	SpaceAfter=No|Translit=10
 17	.	.	PUNCT	interp	PunctType=Peri	16	punct	16:punct	Translit=.
-18	mil	milion	NOUN	brev:pun	Abbr=Yes	15	nmod	15:nmod	SpaceAfter=No|Translit=mill
+18	mil	milion	NOUN	brev:pun	Abbr=Yes	16	flat	16:flat	SpaceAfter=No|Translit=mill
 19	.	.	PUNCT	interp	PunctType=Peri	18	punct	18:punct	Translit=.
-20	drzewa	drzewo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	16	nmod:arg	16:nmod:arg	Translit=drzewa
+20	drzewa	drzewo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	15	dep	15:dep	Translit=drzewa
 21	przydatnego	przydatny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	20:amod	SpaceAfter=No|Translit=przydatnego
 22	,	,	PUNCT	interp	PunctType=Comm	29	punct	29:punct	Translit=,
 23	a	a	CCONJ	conj	_	29	cc	29:cc	Translit=a
 24	ponad	ponad	PART	part	_	25	advmod:emph	25:advmod:emph	Translit=po nad
-25	10,000	10,000	NUM	dig	NumForm=Digit	29	obj	29:obj	SpaceAfter=No|Translit=10,000
-26	.	.	PUNCT	interp	PunctType=Peri	25	punct	25:punct	Translit=.
-27	sztuk	sztuka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	25	nmod:arg	25:nmod:arg	Translit=sztuk
+25	10,000	10,000	NUM	dig	NumForm=Digit	27	nummod	27:nummod	SpaceAfter=No|Translit=10,000
+26	.	.	PUNCT	interp	PunctType=Peri	27	punct	27:punct	Translit=.
+27	sztuk	sztuka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	29	obj	29:obj	Translit=sztuk
 28	drzewa	drzewo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	27	nmod:arg	27:nmod:arg	Translit=drzewa
 29	zapisano	zapisać	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	5:conj	Translit=zapisano
 30	na	na	ADP	prep:loc	AdpType=Prep	31	case	31:case	Case=Loc|Translit=na
@@ -9023,7 +9023,7 @@
 7	trzeciego	trzeci	ADJ	adjnum:sg:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	6	amod:flat	6:amod:flat	Translit=trzećiego
 8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	9:case	Case=Loc|Translit=w
 9	Sublaku	Sublak	PROPN	subst:sg:loc:m	Case=Loc|Gender=Masc|Number=Sing	10	obl	10:obl	Translit=Sublaku
-10	ofiarowani	ofiarować	ADJ	ppas:pl:nom:manim1:biasp:aff:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	Translit=ofiárowáni
+10	ofiarowani	ofiarować	ADJ	ppas:pl:nom:manim1:biasp:aff:pos	Animacy=Hum|Aspect=Imp,Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	0:root	Translit=ofiárowáni
 11	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux:pass	10:aux:pass	Translit=są
 12	do	do	ADP	prep:gen	AdpType=Prep	13	case	13:case	Case=Gen|Translit=do
 13	Zakonu	zakon	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	10	obl	10:obl	Translit=Zakonu
@@ -9054,7 +9054,7 @@
 5	gałeczkach	gałeczka	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	7	nmod	7:nmod	Translit=gałeczkách
 6	wziąć	wziąć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	conj	2:conj	Translit=wźiąć
 7	mydła	mydło	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	9	nmod:arg	9:nmod:arg	Translit=mydłá
-8	pół	pół	NUM	num:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing|NumForm=Word	9	nummod	9:nummod	SpaceAfter=No|Translit=puł
+8	pół	pół	NUM	num:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing|NumForm=Word	9	nummod:gov	9:nummod:gov	SpaceAfter=No|Translit=puł
 9	fonta	font	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	6	obj	6:obj	Translit=fontá
 10	utłuc	utłuc	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	2:conj|6:conj	Translit=utłuc
 11	je	on	PRON	ppron3:sg:acc:n:ter:neut:npraep	Case=Acc|Gender=Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	10	obj	10:obj	Translit=ie
@@ -9064,10 +9064,10 @@
 15	przydawszy	przydać	VERB	pant:perf	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	10	advcl	10:advcl	Translit=przydawszy
 16	różany	różany	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	17:amod	Translit=rożány
 17	wódki	wódka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	15	obj	15:obj	Translit=wodki
-18	i	i	CCONJ	conj	_	19	cc	19:cc	Translit=y
-19	6	6	NUM	dig	NumForm=Digit	17	conj	15:obj|17:conj	SpaceAfter=No|Translit=6
-20	.	.	PUNCT	interp	PunctType=Peri	19	punct	19:punct	Translit=.
-21	ziarn	ziarno	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	19	nmod:arg	19:nmod:arg	Translit=źiarn
+18	i	i	CCONJ	conj	_	21	cc	21:cc	Translit=y
+19	6	6	NUM	dig	NumForm=Digit	21	nummod	21:nummod	SpaceAfter=No|Translit=6
+20	.	.	PUNCT	interp	PunctType=Peri	21	punct	21:punct	Translit=.
+21	ziarn	ziarno	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	17	conj	15:obj|17:conj	Translit=źiarn
 22	piżma	piżmo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	21	nmod:arg	21:nmod:arg	Translit=piżmá
 23	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	24	case	24:case	Case=Gen|SpaceAfter=No|Translit=s
 24	tego	to	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	25	obl	25:obl	Translit=tego
@@ -9126,7 +9126,7 @@
 18	donoszących	donosić	ADJ	pact:pl:loc:m:imperf:aff:pos	Aspect=Imp|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	12	acl	12:acl	SpaceAfter=No|Translit=donoszących
 19	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	Translit=,
 20	wyczytać	wyczytać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	21:xcomp	Translit=wyczytać
-21	mógł	móc	VERB	praet:sg:m:imperf:nagl	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	5:ccomp	Translit=mógł
+21	mógł	móc	VERB	praet:sg:m:imperf:nagl	Agglutination=Nagl|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	5:ccomp	Translit=mógł
 22	wyraźnie	wyraźnie	ADV	adv:pos	Degree=Pos	20	advmod	20:advmod	Translit=wyraźnie
 23	Imiona	imię	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	20	obj	20:obj	Translit=Imiona
 24	takowych	takowy	ADJ	adj:pl:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	25	amod	25:amod	Translit=takowych
@@ -9183,7 +9183,7 @@
 20	się	się	PRON	part	PronType=Prs|Reflex=Yes	21	expl:pv	21:expl:pv	Translit=się
 21	zostało	zostać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	9:conj	Translit=zostało
 22	około	około	PART	part	_	23	advmod:emph	23:advmod:emph	Translit=około
-23	szesnaście	szesnaście	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	25	nummod	25:nummod	Translit=szesnaście
+23	szesnaście	szesnaście	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	25	nummod:gov	25:nummod:gov	Translit=szesnaście
 24	tysięcy	tysiąc	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	23	flat	23:flat	Translit=tysięcy
 25	luda	lud	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	21	nsubj	21:nsubj	SpaceAfter=No|Translit=luda
 26	,	,	PUNCT	interp	PunctType=Comm	27	punct	27:punct	Translit=,
@@ -9251,7 +9251,7 @@
 # orig_file_sentence = korba2_manual#SzylarPoczątki#segm_1.45-s
 # text = I. Rodzaj takich Wierszy jest podobny do Łacińskich od Horacjusza pisanych, których w każdej strofie cztery zawiera sję; pierwsze dwa po jedenaście sylab mające, trzeci dziewięć, a czwarty dziesięć.
 # text_translit = I. Rodzay takich Wjerszy jest podobny do Łacinskich od Horacyusza pisanych, ktorych w każdey strofie cztery zawjera sję; pjerwsze dwa po jedenaścje sylab mające, trzeci dzjewjęć, a czwarty dzjesjęć.
-1	I	I	X	romandig	NumForm=Roman	7	list	7:list	SpaceAfter=No|Translit=I
+1	I	I	NUM	romandig	NumForm=Roman	7	list	7:list	SpaceAfter=No|Translit=I
 2	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 3	Rodzaj	rodzaj	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	7:nsubj	Translit=Rodzay
 4	takich	taki	DET	adj:pl:gen:m:pos	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	5	det	5:det	Translit=takich
@@ -9268,14 +9268,14 @@
 15	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	17:case	Case=Loc|Translit=w
 16	każdej	każdy	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	17	det	17:det	Translit=każdey
 17	strofie	strofa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	19	obl	19:obl	Translit=strofie
-18	cztery	cztery	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	14	nummod	14:nummod	Translit=cztery
+18	cztery	cztery	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	14	nummod:gov	14:nummod:gov	Translit=cztery
 19	zawiera	zawierać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	9:acl:relcl	Translit=zawjera
 20	sję	się	PRON	part	PronType=Prs|Reflex=Yes	19	expl:pv	19:expl:pv	SpaceAfter=No|Translit=sję
 21	;	;	PUNCT	interp	PunctType=Semi	19	punct	19:punct	Translit=;
 22	pierwsze	pierwszy	ADJ	adjnum:pl:nom:m:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|NumType=Ord	23	amod	23:amod	Translit=pjerwsze
 23	dwa	dwa	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	19	obl	19:obl	Translit=dwa
 24	po	po	ADP	prep:acc	AdpType=Prep	26	case	26:case	Case=Acc|Translit=po
-25	jedenaście	jedenaście	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	26	nummod	26:nummod	Translit=jedenaścje
+25	jedenaście	jedenaście	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	26	nummod:gov	26:nummod:gov	Translit=jedenaścje
 26	sylab	sylaba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	27	iobj	27:iobj	Translit=sylab
 27	mające	mieć	ADJ	pact:pl:nom:m:imperf:aff:pos	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	23	acl	23:acl	SpaceAfter=No|Translit=mające
 28	,	,	PUNCT	interp	PunctType=Comm	29	punct	29:punct	Translit=,
@@ -9345,7 +9345,7 @@
 12	prośbę	prośba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	obl:arg	9:obl:arg	Translit=proźbę
 13	ich	on	PRON	ppron3:pl:gen:m:ter:neut:npraep	Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	12	nmod:poss	12:nmod:poss	SpaceAfter=No|Translit=ich
 14	,	,	PUNCT	interp	PunctType=Comm	17	punct	17:punct	Translit=,
-15	kilka	kilka	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	16	det	16:det	Translit=kilka
+15	kilka	kilka	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	16	det:numgov	16:det:numgov	Translit=kilka
 16	dni	dzień	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	17	obl	17:obl	Translit=dni
 17	zatrzymać	zatrzymać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	12:xcomp	Translit=zatrzymać
 18	się	się	PRON	part	PronType=Prs|Reflex=Yes	17	expl:pv	17:expl:pv	Translit=się
@@ -9413,7 +9413,7 @@
 12	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	13	case	13:case	Case=Ins|Translit=z
 13	indygnacją	indygnacja	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	14	obl	14:obl	Translit=indygnacyą
 14-15	widziałam	_	_	_	_	_	_	_	Translit=widziałam
-14	widziała	widzieć	VERB	praet:sg:f:biasp	Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	1:conj	Translit=widziała
+14	widziała	widzieć	VERB	praet:sg:f:biasp	Aspect=Imp,Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	1:conj	Translit=widziała
 15	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Number=Sing|Person=1|Variant=Short	14	aux:clitic	14:aux:clitic	Translit=m
 16	tego	ten	DET	adj:sg:acc:manim2:pos	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	17	det	17:det	Translit=tego
 17	Kleona	Kleon	PROPN	subst:sg:acc:manim2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	14	obj	14:obj	SpaceAfter=No|Translit=Kleona
@@ -9518,7 +9518,7 @@
 20	onemu	on	ADJ	adj:sg:dat:m:pos	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	33	obl	33:obl	Translit=onemu
 21	ż	ż	PART	part:nwok	_	20	advmod:emph	20:advmod:emph	Translit=ż
 22	naprzeciw	naprzeciw	ADP	prep:dat	AdpType=Prep	20	case	20:case	Case=Dat|Translit=naprzeciw
-23	kilka	kilka	DET	num:pl:inst:m	Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	24	det	24:det	Translit=kilka
+23	kilka	kilka	DET	num:pl:inst:m	Case=Ins|Gender=Masc|Number=Plur|PronType=Ind	24	det:nummod	24:det:nummod	Translit=kilka
 24	Pocztami	poczet	NOUN	subst:pl:inst:m	Case=Ins|Gender=Masc|Number=Plur	33	obl	33:obl	Translit=Pocztami
 25	Arcyksiążę	arcyksiążę	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	33	nsubj	33:nsubj	Translit=Arcy – Xiąże
 26	Toszkański	toszkański	ADJ	adj:sg:nom:m:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	25:amod	SpaceAfter=No|Translit=Toszkański
@@ -9615,7 +9615,7 @@
 34	na	na	ADP	prep:acc	AdpType=Prep	35	case	35:case	Case=Acc|Translit=na
 35	nas	my	PRON	ppron12:pl:acc:pri	Case=Acc|Number=Plur|Person=1|PronType=Prs	33	obl	33:obl	Translit=nas
 36	grzywien	grzywna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	33	obj	33:obj	Translit=grzywien
-37	cztery	cztery	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	36	nummod	36:nummod	Translit=cztery
+37	cztery	cztery	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	36	nummod:gov	36:nummod:gov	Translit=cztery
 38	a	a	CCONJ	conj	_	41	cc	41:cc	Translit=a
 39	na	na	ADP	prep:acc	AdpType=Prep	40	case	40:case	Case=Acc|Translit=na
 40	starostę	starosta	NOUN	subst:sg:acc:manim2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	41	orphan	41:orphan	Translit=starostę
@@ -9762,7 +9762,7 @@
 16	Bożej	boży	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	15:amod	SpaceAfter=No|Translit=Bożey
 17	,	,	PUNCT	interp	PunctType=Comm	20	punct	20:punct	Translit=,
 18	i	i	CCONJ	conj	_	20	cc	20:cc	Translit=y
-19	moc	moc	NUM	num:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|NumForm=Word	20	nummod	20:nummod	Translit=moc
+19	moc	moc	NUM	num:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|NumForm=Word	20	nummod:gov	20:nummod:gov	Translit=moc
 20	posłuszeństwa	posłuszeństwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	13	conj	11:obj|13:conj	SpaceAfter=No|Translit=posłuszeństwa
 21	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 
@@ -9794,7 +9794,7 @@
 7	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	Translit=,
 8	uważajmy	uważać	VERB	impt:pl:pri:imperf	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	1	conj	1:conj	Translit=uważaymy
 9	co	co	PART	part	ExtPos=ADV	13	advmod	13:advmod	Translit=co
-10	też	też	PART	part	_	9	advmod:emph	9:advmod:emph	Translit=też
+10	też	też	PART	part	_	9	fixed	9:fixed	Translit=też
 11	one	on	PRON	ppron3:pl:nom:f:ter:neut:npraep	Case=Nom|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	20	nsubj	20:nsubj	Translit=one
 12	za	za	PART	part	_	9	fixed	9:fixed	Translit=za
 13	odmianę	odmiana	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	20	obj	20:obj	Translit=odmianę
@@ -9816,7 +9816,7 @@
 3	biednym	biedny	ADJ	adj:sg:loc:m:pos	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	4:amod	Translit=biednym
 4	stanie	stan	NOUN	subst:sg:loc:m	Case=Loc|Gender=Masc|Number=Sing	5	obl	5:obl	Translit=stanie
 5	przepędził	przepędzić	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=przepędził
-6	kilka	kilka	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det	7:det	Translit=kilka
+6	kilka	kilka	DET	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	7	det:numgov	7:det:numgov	Translit=kilka
 7	miesięcy	miesiąc	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	5	obj	5:obj	SpaceAfter=No|Translit=mieśięcy
 8	,	,	PUNCT	interp	PunctType=Comm	22	punct	22:punct	Translit=,
 9	gdyż	gdyż	SCONJ	comp	_	22	mark	22:mark	Translit=gdyż
@@ -9853,7 +9853,7 @@
 40	się	się	PRON	part	PronType=Prs|Reflex=Yes	39	expl:pv	39:expl:pv	Translit=się
 41	do	do	ADP	prep:gen	AdpType=Prep	43	case	43:case	Case=Gen|Translit=do
 42	pierwszego	pierwszy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	43	amod	43:amod	Translit=pierwszego
-43	zdrowia	zdrowie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	39	obl:arg	39:obl:arg	SpaceAfter=No|Translit=zdrowia
+43	zdrowia	zdrowie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	39	nmod:arg	39:nmod:arg	SpaceAfter=No|Translit=zdrowia
 44	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
 
 # sent_id = 1673
@@ -9863,7 +9863,7 @@
 1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	2	case	2:case	Case=Loc|Translit=W
 2	madrydzie	Madryd	PROPN	subst:sg:loc:m	Case=Loc|Gender=Masc|Number=Sing	3	orphan	3:orphan	Translit=mádrydźie
 3	Król	król	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	Translit=Krol
-4	JM	jegomość	ADV	brev:pun	Abbr=Yes	3	appos	3:appos	SpaceAfter=No|Translit=I. M
+4	JM	jegomość	NOUN	brev:pun	Abbr=Yes	3	appos	3:appos	SpaceAfter=No|Translit=I. M
 5	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	Translit=.
 6	po	po	ADP	prep:loc	AdpType=Prep	10	case	10:case	Case=Loc|Translit=po
 7	wziętej	wziąć	ADJ	ppas:sg:loc:f:perf:aff:pos	Aspect=Perf|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	10:acl	Translit=wźiętey
@@ -9888,7 +9888,7 @@
 # orig_file_sentence = korba2_manual#WiadCudz_1702_14I#segm_1.276-s
 # text = Wiele tu ze Włoch przyprowadzili niewolnika Francuskiego których do różnych robót aplikować będą.
 # text_translit = Wiele tu że Włoch przyprowádźili niewolniká Fráncuskiego ktorych do rożnych robot ápplikować będą.
-1	Wiele	wiele	DET	num:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	6	det	6:det	Translit=Wiele
+1	Wiele	wiele	DET	num:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	6	det:numgov	6:det:numgov	Translit=Wiele
 2	tu	tu	ADV	adv	PronType=Dem	5	advmod	5:advmod	Translit=tu
 3	ze	z	ADP	prep:gen:wok	AdpType=Prep|Variant=Long	4	case	4:case	Case=Gen|Translit=że
 4	Włoch	Włochy	PROPN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	5	obl	5:obl	Translit=Włoch
@@ -10116,7 +10116,7 @@
 6	drugiego	drugi	ADJ	adjnum:sg:gen:m:pos	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	5	amod	5:amod	Translit=drugiego
 7	listopada	listopad	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	6	nmod:flat	6:nmod:flat	Translit=listopada
 8	roku	rok	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	7	nmod:flat	7:nmod:flat	Translit=roku
-9	1765	1765	NUM	dig	NumForm=Digit	8	flat	8:flat	SpaceAfter=No|Translit=1765
+9	1765	1765	NUM	dig	NumForm=Digit	8	nummod:flat	8:nummod:flat	SpaceAfter=No|Translit=1765
 10	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 
 # sent_id = 1697
@@ -10215,7 +10215,7 @@
 9	,	,	PUNCT	interp	PunctType=Comm	12	punct	12:punct	Translit=,
 10	ile	ile	ADV	adv	PronType=Int	12	orphan	12:orphan	Translit=ile
 11	tylko	tylko	PART	part	_	12	advmod:emph	12:advmod:emph	Translit=tylko
-12	mógł	móc	VERB	praet:sg:m:imperf:nagl	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	SpaceAfter=No|Translit=mogł
+12	mógł	móc	VERB	praet:sg:m:imperf:nagl	Agglutination=Nagl|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	7:advcl	SpaceAfter=No|Translit=mogł
 13	.	.	PUNCT	interp	PunctType=Peri	5	punct	5:punct	Translit=.
 
 # sent_id = 1731
@@ -10278,7 +10278,7 @@
 2	bez	bez	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	3:case	Case=Gen|Translit=bez
 3	uchybienia	uchybić	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obl	1:obl	Translit=uchybienia
 4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	5:case	Case=Loc|Translit=w
-5	czymkolwiek	cokolwiek	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind	3	obl:arg	3:obl:arg	Translit=czymkolwiek
+5	czymkolwiek	cokolwiek	PRON	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind	3	nmod:arg	3:nmod:arg	Translit=czymkolwiek
 6	pamiątce	pamiątka	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	3	iobj	3:iobj	Translit=pamiątce
 7	tego	ten	DET	adj:sg:gen:m:pos	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	9:det	Translit=tego
 8	ulubionego	ulubić	ADJ	ppas:sg:gen:m:perf:aff:pos	Aspect=Perf|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	9	acl	9:acl	Translit=ulubionego
@@ -10392,7 +10392,7 @@
 9	i	i	PART	part	_	14	advmod:emph	14:advmod:emph	Translit=y
 10	na	na	ADP	prep:acc	AdpType=Prep	14	case	14:case	Case=Acc|Translit=na
 11	Czyśćca	czyściec	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	14	nmod:arg	14:nmod:arg	Translit=Czysca
-12	dwa	dwa	NUM	num:du:acc:m	Case=Acc|Gender=Masc|Number=Dual|NumForm=Word	14	nummod	14:nummod	Translit=dwa
+12	dwa	dwa	NUM	num:du:acc:m	Case=Acc|Gender=Masc|Number=Dual|NumForm=Word	14	nummod:gov	14:nummod:gov	Translit=dwa
 13	tysiąca	tysiąc	NOUN	subst:du:acc:m	Case=Acc|Gender=Masc|Number=Dual	12	flat	12:flat	Translit=tysiąca
 14	lat	rok	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	16	obl:arg	16:obl:arg	SpaceAfter=No|Translit=lát
 15	,	,	PUNCT	interp	PunctType=Comm	14	punct	14:punct	Translit=,
@@ -10419,15 +10419,15 @@
 13	Księdzu	ksiądz	NOUN	subst:sg:dat:m	Case=Dat|Gender=Masc|Number=Sing	11	iobj	11:iobj	Translit=Xiędzu
 14	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	16	case	16:case	Case=Gen|Translit=od
 15	swojej	swój	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	16	det:poss	16:det:poss	Translit=swoiey
-16	zwierzchności	zwierzchność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	obl:arg	11:obl:arg	SpaceAfter=No|Translit=zwierzchności
+16	zwierzchności	zwierzchność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	nmod:arg	11:nmod:arg	SpaceAfter=No|Translit=zwierzchności
 17	,	,	PUNCT	interp	PunctType=Comm	20	punct	20:punct	Translit=,
 18	jak	jak	ADV	adv:pos	Degree=Pos	22	advmod	22:advmod	Translit=iak
-19	mało	mało	DET	num:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	22	det	22:det	Translit=mało
+19	mało	mało	DET	num:sg:acc:n	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	22	det:numgov	22:det:numgov	Translit=mało
 20	czyni	czynić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	4:ccomp|7:conj	Translit=czyni
 21	się	się	PRON	part	PronType=Prs|Reflex=Yes	20	expl:pv	20:expl:pv	Translit=się
 22	baczenia	baczyć	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	20	obj	20:obj	Translit=baczenia
 23	na	na	ADP	prep:acc	AdpType=Prep	24	case	24:case	Case=Acc|Translit=na
-24	rząd	rząd	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	22	obl:arg	22:obl:arg	Translit=rząd
+24	rząd	rząd	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	22	nmod:arg	22:nmod:arg	Translit=rząd
 25	dobry	dobry	ADJ	adj:sg:acc:m:pos	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	24:amod	SpaceAfter=No|Translit=dobry
 26	,	,	PUNCT	interp	PunctType=Comm	34	punct	34:punct	Translit=,
 27	jak	jak	SCONJ	comp	ConjType=Comp	34	mark	34:mark	Translit=iak
@@ -10601,8 +10601,8 @@
 7	Ksstwa	ksstwo	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	5	nmod:poss	5:nmod:poss	Translit=Xstwa
 8	Mazowieckiego	mazowiecki	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod:flat	7:amod:flat	Translit=Mazowieckiego
 9	odesłała	odesłać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	Translit=odesłała
-10	osób	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	11	nmod:arg	11:nmod:arg	Translit=osób
-11	6	6	NUM	dig	NumForm=Digit	9	obj	9:obj	SpaceAfter=No|Translit=6
+10	osób	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	obj	9:obj	Translit=osób
+11	6	6	NUM	dig	NumForm=Digit	10	nummod	10:nummod	SpaceAfter=No|Translit=6
 12	.	.	PUNCT	interp	PunctType=Peri	13	punct	13:punct	Translit=.
 13	Wyindagowała	wyindagować	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	2:conj	SpaceAfter=No|Translit=Wyindagowała
 14	,	,	PUNCT	interp	PunctType=Comm	19	punct	19:punct	Translit=,
@@ -10619,8 +10619,8 @@
 25	deputacji	deputacja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	21	obl:agent	21:obl:agent	Translit=deputacyi
 26	rewizyjnej	rewizyjny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	25	amod	25:amod	SpaceAfter=No|Translit=rewizyyney
 27	,	,	PUNCT	interp	PunctType=Comm	19	punct	19:punct	Translit=,
-28	osób	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	29	nmod:arg	29:nmod:arg	Translit=osób
-29	2	2	NUM	dig	NumForm=Digit	13	obj	13:obj	SpaceAfter=No|Translit=2
+28	osób	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	13	obj	13:obj	Translit=osób
+29	2	2	NUM	dig	NumForm=Digit	28	nummod	28:nummod	SpaceAfter=No|Translit=2
 30	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	Translit=.
 
 # sent_id = 1809
@@ -10773,7 +10773,7 @@
 3	nich	on	PRON	ppron3:pl:gen:m:ter:neut:praep	Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	1	obl	1:obl	SpaceAfter=No|Translit=nich
 4	;	;	PUNCT	interp	PunctType=Semi	1	punct	1:punct	Translit=;
 5-7	sześćbym	_	_	_	_	_	_	_	Translit=sześćbym
-5	sześć	sześć	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	9	nummod	9:nummod	Translit=sześć
+5	sześć	sześć	NUM	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	9	nummod:gov	9:nummod:gov	Translit=sześć
 6	by	by	AUX	part	_	10	aux:cnd	10:aux:cnd	Translit=by
 7	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Number=Sing|Person=1|Variant=Short	10	aux:clitic	10:aux:clitic	Translit=m
 8	dziś	dziś	ADV	adv	_	10	advmod	10:advmod	Translit=dziś
@@ -10859,7 +10859,7 @@
 21	dziąsła	dziąsło	NOUN	subst:pl:acc:n	Case=Acc|Gender=Neut|Number=Plur	22	obj	22:obj	Translit=dźiąsłá
 22	rozprzestrzeniać	rozprzestrzeniać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	19:xcomp	Translit=rosprzestrzeniáć
 23	dopiro	dopiro	ADV	adv	_	24	advmod	24:advmod	Translit=dopiro
-24	mianowanym	mianować	ADJ	ppas:sg:inst:n:biasp:aff:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	25	acl	25:acl	Translit=miánowánym
+24	mianowanym	mianować	ADJ	ppas:sg:inst:n:biasp:aff:pos	Aspect=Imp,Perf|Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	25	acl	25:acl	Translit=miánowánym
 25	lekarstwem	lekarstwo	NOUN	subst:sg:inst:n	Case=Ins|Gender=Neut|Number=Sing	22	iobj	22:iobj	SpaceAfter=No|Translit=lekárstwem
 26	/	/	PUNCT	interp	PunctType=Slsh	29	punct	29:punct	Translit=/
 27	a	a	CCONJ	conj	_	29	cc	29:cc	Translit=á
@@ -10900,7 +10900,7 @@
 4	mój	mój	DET	adj:sg:voc:m:pos	Case=Voc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	3:det:poss	SpaceAfter=No|Translit=moy
 5	/	/	PUNCT	interp	PunctType=Slsh	6	punct	6:punct	Translit=/
 6	Ojcze	ojciec	NOUN	subst:sg:voc:m	Case=Voc|Gender=Masc|Number=Sing	1	conj	1:conj|15:vocative	Translit=Oycze
-7	wiela	wiele	DET	num:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	8	det	8:det	Translit=wiela
+7	wiela	wiele	DET	num:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	8	det:nummod	8:det:nummod	Translit=wiela
 8	miłosierdzia	miłosierdzie	NOUN	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing	6	nmod:poss	6:nmod:poss	SpaceAfter=No|Translit=miłośierdźia
 9	/	/	PUNCT	interp	PunctType=Slsh	1	punct	1:punct	Translit=/
 10	o	o	INTJ	interj	_	15	discourse:intj	15:discourse:intj	Translit=o
@@ -10963,14 +10963,14 @@
 17	mu	on	PRON	ppron3:sg:dat:m:ter:nakc:npraep	Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	29	iobj	29:iobj	Translit=mu
 18	dochód	dochód	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	29:nsubj	Translit=dochod
 19	ten	ten	DET	adj:sg:nom:m:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	18	det	18:det	Translit=ten
-20	na	na	ADP	prep:acc	AdpType=Prep	21	case	21:case	Case=Acc|Translit=na
-21	365	365	NUM	dig	NumForm=Digit	29	obl	29:obl	Translit=365
-22	dni	dzień	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	21	nmod:arg	21:nmod:arg	SpaceAfter=No|Translit=dni
+20	na	na	ADP	prep:acc	AdpType=Prep	22	case	22:case	Case=Acc|Translit=na
+21	365	365	NUM	dig	NumForm=Digit	22	nummod	22:nummod	Translit=365
+22	dni	dzień	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	29	obl	29:obl	SpaceAfter=No|Translit=dni
 23	,	,	PUNCT	interp	PunctType=Comm	27	punct	27:punct	Translit=,
 24	to	to	PART	part	ExtPos=CCONJ	27	advmod:emph	27:advmod:emph	Translit=to
 25	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	fixed	24:fixed	Translit=iest
 26	na	na	ADP	prep:acc	AdpType=Prep	27	case	27:case	Case=Acc|Translit=na
-27	rok	rok	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	21	nmod	21:nmod	Translit=rok
+27	rok	rok	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	22	nmod	22:nmod	Translit=rok
 28	cały	cały	ADJ	adj:sg:acc:m:pos	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	27:amod	Translit=cały
 29	wystarczył	wystarczyć	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	13:advcl	SpaceAfter=No|Translit=wystarczył
 30	?	?	PUNCT	interp	PunctType=Qest	13	punct	13:punct	Translit=?
@@ -11022,7 +11022,7 @@
 39	czego	co	PRON	subst:sg:gen:n	Case=Gen|Gender=Neut|Number=Sing|PronType=Int	43	obj	43:obj	Translit=czego
 40	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Number=Sing|Person=1|Variant=Short	42	aux:clitic	42:aux:clitic	Translit=m
 41	się	się	PRON	part	PronType=Prs|Reflex=Yes	43	expl:pv	43:expl:pv	Translit=się
-42	mógł	móc	VERB	praet:sg:m:imperf:nagl	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	3:conj	Translit=mogł
+42	mógł	móc	VERB	praet:sg:m:imperf:nagl	Agglutination=Nagl|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	3:conj	Translit=mogł
 43	nauczyć	nauczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	42	xcomp	42:xcomp	SpaceAfter=No|Translit=nauczyć
 44	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	Translit=.
 
@@ -11037,7 +11037,7 @@
 4	osądził	osądzić	VERB	praet:sg:m:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=osądźił
 5	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Number=Sing|Person=1|Variant=Long	4	aux:clitic	4:aux:clitic	Translit=em
 6	dzisiejszej	dzisiejszy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	12:amod	Translit=dźiśieyszey
-7	WM	waszmość	ADV	brev:pun	Abbr=Yes	11	iobj	11:iobj	SpaceAfter=No|Translit=W. M
+7	WM	waszmość	NOUN	brev:pun	Abbr=Yes	11	iobj	11:iobj	SpaceAfter=No|Translit=W. M
 8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	Translit=.
 9	Panu	pan	NOUN	subst:sg:dat:m	Case=Dat|Gender=Masc|Number=Sing	7	appos	7:appos	Translit=Pánu
 10	nie	nie	PART	part	Polarity=Neg	11	advmod:neg	11:advmod:neg	SpaceAfter=No|Translit=nie
@@ -11207,12 +11207,12 @@
 23	obchodzi	obchodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No|Translit=obchodźi
 24	,	,	PUNCT	interp	PunctType=Comm	43	punct	43:punct	Translit=,
 25	jakoby	jakoby	SCONJ	comp	ConjType=Comp	43	mark	43:mark	Translit=iákoby
-26	to	to	PART	part	_	43	advmod:emph	25:advmod:emph	SpaceAfter=No|Translit=to
+26	to	to	PART	part	_	43	advmod:emph	43:advmod:emph	SpaceAfter=No|Translit=to
 27	,	,	PUNCT	interp	PunctType=Comm	43	punct	43:punct	Translit=,
-28	oboje	oba	DET	numcol:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	43	nsubj	43:nsubj	Translit=oboie
+28	oboje	oba	DET	numcol:pl:nom:n	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	30	det:nummod	30:det:nummod	Translit=oboie
 29	Te	ten	DET	adj:pl:nom:n:pos	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	30	det	30:det	Translit=Te
-30	Poczęcia	począć	NOUN	ger:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Vnoun	28	dep	28:dep	SpaceAfter=No|Translit=Poczęćia
-31	,	,	PUNCT	interp	PunctType=Comm	28	punct	28:punct	Translit=,
+30	Poczęcia	począć	NOUN	ger:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Vnoun	43	nsubj	43:nsubj	SpaceAfter=No|Translit=Poczęćia
+31	,	,	PUNCT	interp	PunctType=Comm	30	punct	30:punct	Translit=,
 32	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	34	case	34:case	Case=Loc|SpaceAfter=No|Translit=w
 33	jednej	jeden	ADJ	adjnum:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	34	amod	34:amod	Translit=iedney
 34	parze	para	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	43	obl	43:obl	SpaceAfter=No|Translit=parze
@@ -11230,7 +11230,7 @@
 # sent_id = 1884
 # orig_file_sentence = korba2_manual#ŻabFor#segm_1.129-s
 # text = Miałkiej nauki Księża sumnienia zawodzą, Nieuk zaś Doktor, kucharz, zdrowie ludzkie szkodzą.
-# text_translit = Miáłkiey náuki Xięża sumnienia záẃodzą, Nieuk záś Doktor, kucharz, zdrowie ludzkie szkodzą.
+# text_translit = Miáłkiey náuki Xięża sumnienia záwodzą, Nieuk záś Doktor, kucharz, zdrowie ludzkie szkodzą.
 1	Miałkiej	miałki	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	2:amod	Translit=Miáłkiey
 2	nauki	nauka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod	Translit=náuki
 3	Księża	ksiądz	NOUN	subst:pl:nom:manim1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	5:nsubj	Translit=Xięża
@@ -11311,9 +11311,9 @@
 1	Za	za	ADP	prep:inst	AdpType=Prep	2	case	2:case	Case=Ins|Translit=Zá
 2	nimi	on	PRON	ppron3:pl:inst:m:ter:neut:npraep	Case=Ins|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	3	obl	3:obl	Translit=nimi
 3	jechało	jechać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=iecháło
-4	30	30	NUM	dig	NumForm=Digit	3	nsubj	3:nsubj	SpaceAfter=No|Translit=30
-5	.	.	PUNCT	interp	PunctType=Peri	4	punct	4:punct	Translit=.
-6	Pacholąt	pacholę	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	4	nmod:arg	4:nmod:arg	Translit=Pácholąt
+4	30	30	NUM	dig	NumForm=Digit	6	nummod	6:nummod	SpaceAfter=No|Translit=30
+5	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	Translit=.
+6	Pacholąt	pacholę	NOUN	subst:pl:gen:n	Case=Gen|Gender=Neut|Number=Plur	3	nsubj	3:nsubj	Translit=Pácholąt
 7	ubranych	ubrać	ADJ	ppas:pl:gen:n:perf:aff:pos	Aspect=Perf|Case=Gen|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	6:acl	Translit=vbránych
 8	dziwnie	dziwnie	ADV	adv:pos	Degree=Pos	9	advmod	9:advmod	Translit=dźiwnie
 9	zacnie	zacnie	ADV	adv:pos	Degree=Pos	7	advmod	7:advmod	SpaceAfter=No|Translit=zacnie
@@ -11410,7 +11410,7 @@
 13	,	,	PUNCT	interp	PunctType=Comm	16	punct	16:punct	Translit=,
 14	na	na	ADP	prep:acc	AdpType=Prep	15	case	15:case	Case=Acc|SpaceAfter=No|Translit=na
 15	kształt	kształt	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	16	nmod	16:nmod	Translit=kształt
-16	Maglownicy	maglownica	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	obl:cmp	12:obl:cmp	Translit=Maglownicy
+16	Maglownicy	maglownica	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod:cmp	12:nmod:cmp	Translit=Maglownicy
 17	ręcznej	ręczny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	16:amod	SpaceAfter=No|Translit=ręczney
 18	:	:	PUNCT	interp	PunctType=Colo	19	punct	19:punct	Translit=:
 19	Idzie	iść	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	5:conj	Translit=Jdzie
@@ -11449,11 +11449,11 @@
 6	mody	moda	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	0	root	0:root	SpaceAfter=No|Translit=mody
 7	...	...	PUNCT	interp	_	6	punct	6:punct	Translit=…
 8-9	Przywiozłem	_	_	_	_	_	_	_	Translit=Przywiozłem
-8	Przywiozł	przywieźć	VERB	praet:sg:m:perf:agl	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	6:conj	Translit=Przywiozł
+8	Przywiozł	przywieźć	VERB	praet:sg:m:perf:agl	Agglutination=Agl|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	6:conj	Translit=Przywiozł
 9	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Number=Sing|Person=1|Variant=Long	8	aux:clitic	8:aux:clitic	Translit=em
 10	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	11:case	Case=Ins|Translit=z
 11	sobą	siebie	PRON	siebie:inst	Case=Ins|PronType=Prs|Reflex=Yes	8	obl	8:obl	Translit=sobą
-12	kilka	kilka	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	13	det	13:det	Translit=kilka
+12	kilka	kilka	DET	num:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	13	det:numgov	13:det:numgov	Translit=kilka
 13	najświeższych	świeży	ADJ	adj:pl:gen:f:sup	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	8	obj	8:obj	SpaceAfter=No|Translit=nayświeższych
 14	;	;	PUNCT	interp	PunctType=Semi	18	punct	18:punct	Translit=;
 15	już	już	PART	part	_	18	advmod:emph	18:advmod:emph	Translit=iuż
@@ -11467,7 +11467,7 @@
 # text = Wtargnienie Zamojskiego do Wołoszczyzny, wzbudziło wielkie między Polakami szemranie.
 # text_translit = Wtargnienie Zamoyskiego do Wołoszczyzny, wzbudziło wielkie między Polakami szemranie.
 1	Wtargnienie	wtargnąć	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	nsubj	6:nsubj	Translit=Wtargnienie
-2	Zamojskiego	Zamojski	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	1	obl:agent	1:obl:agent	Translit=Zamoyskiego
+2	Zamojskiego	Zamojski	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	1	nmod	1:nmod	Translit=Zamoyskiego
 3	do	do	ADP	prep:gen	AdpType=Prep	4	case	4:case	Case=Gen|Translit=do
 4	Wołoszczyzny	Wołoszczyzna	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	1:nmod	SpaceAfter=No|Translit=Wołoszczyzny
 5	,	,	PUNCT	interp	PunctType=Comm	1	punct	1:punct	Translit=,
@@ -11536,7 +11536,7 @@
 5	wiara	wiara	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj:pass	4:nsubj:pass|14:nsubj:pass	Translit=wiárá
 6	Święta	święty	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	5:amod	Translit=Swięta
 7	Roku	rok	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	4	obl	4:obl	Translit=Roku
-8	1626	1626	NUM	dig	NumForm=Digit	7	flat	7:flat	SpaceAfter=No|Translit=1626
+8	1626	1626	NUM	dig	NumForm=Digit	7	nummod:flat	7:nummod:flat	SpaceAfter=No|Translit=1626
 9	.	.	PUNCT	interp	PunctType=Peri	14	punct	14:punct	Translit=.
 10	i	i	CCONJ	conj	_	14	cc	14:cc	Translit=y
 11	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	13	advmod	13:advmod	Translit=ták
@@ -11546,10 +11546,10 @@
 15	,	,	PUNCT	interp	PunctType=Comm	27	punct	27:punct	Translit=,
 16	że	że	SCONJ	comp	_	27	mark	27:mark|31:mark	Translit=że
 17	Roku	rok	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	27	obl	27:obl	Translit=Roku
-18	1639	1639	NUM	dig	NumForm=Digit	17	flat	17:flat	SpaceAfter=No|Translit=1639
+18	1639	1639	NUM	dig	NumForm=Digit	17	nummod:flat	17:nummod:flat	SpaceAfter=No|Translit=1639
 19	.	.	PUNCT	interp	PunctType=Peri	18	punct	18:punct	Translit=.
 20	na	na	ADP	prep:acc	AdpType=Prep	23	case	23:case	Case=Acc|Translit=ná
-21	sto	sto	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	23	nummod	23:nummod	Translit=sto
+21	sto	sto	NUM	num:pl:acc:m	Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	23	nummod:gov	23:nummod:gov	Translit=sto
 22	tysięcy	tysiąc	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	21	flat	21:flat	Translit=tysięcy
 23	obywatelów	obywatel	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	27	nsubj	27:nsubj	Translit=obywátelow
 24	do	do	ADP	prep:gen	AdpType=Prep	25	case	25:case	Case=Gen|Translit=do
@@ -11620,7 +11620,7 @@
 # orig_file_sentence = korba2_manual#MoszczSGram#segm_1.230-s
 # text = O. Każdy Język ma pewną liczbę swoich liter, inszą Niemiecki, inszą Ruski, inszą Polski, inszą Francuski.
 # text_translit = O. Każdy Język ma pewną liczbę swoich liter, inszą Niemiecki, inszą Ruski, inszą Polski, inszą Francuski.
-1	O	odpowiedź	ADV	brev:pun	Abbr=Yes	5	list	5:list|12:list	SpaceAfter=No|Translit=O
+1	O	odpowiedź	NOUN	brev:pun	Abbr=Yes	5	list	5:list|12:list	SpaceAfter=No|Translit=O
 2	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 3	Każdy	każdy	DET	adj:sg:nom:m:pos	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	4	det	4:det	Translit=Każdy
 4	Język	język	NOUN	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj	Translit=Język
@@ -11722,18 +11722,18 @@
 3	Warszawie	Warszawa	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obl	1:obl	SpaceAfter=No|Translit=Warszawie
 4	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	Translit=,
 5	dnia	dzień	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	1	obl	1:obl	Translit=dnia
-6	8	8	NUM	dig	NumForm=Digit	5	amod	5:amod	Translit=8
+6	8	8	NUM	dig	NumForm=Digit	5	nmod	5:nmod	Translit=8
 7	miesiąca	miesiąc	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	6	nmod:flat	6:nmod:flat	Translit=miesiąca
 8	lipca	lipiec	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	7	appos	7:appos	SpaceAfter=No|Translit=lipca
 9	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	Translit=,
 10	r	rok	NOUN	brev:pun	Abbr=Yes	8	nmod:flat	8:nmod:flat	SpaceAfter=No|Translit=r
 11	.	.	PUNCT	interp	PunctType=Peri	10	punct	10:punct	Translit=.
-12	P	pański	ADV	brev:npun	Abbr=Yes	10	nmod	10:nmod	Translit=P
-13	1720	1720	NUM	dig	NumForm=Digit	10	flat	10:flat	SpaceAfter=No|Translit=1720
+12	P	pański	ADJ	brev:npun	Abbr=Yes	10	amod	10:amod	Translit=P
+13	1720	1720	NUM	dig	NumForm=Digit	10	nummod:flat	10:nummod:flat	SpaceAfter=No|Translit=1720
 14	,	,	PUNCT	interp	PunctType=Comm	18	punct	18:punct	Translit=,
 15	panowania	panować	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	18	nmod	18:nmod	Translit=panowania
 16	naszego	nasz	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	15	det:poss	15:det:poss	Translit=naszego
-17	XXIV	XXIV	X	romandig	NumForm=Roman	18	amod	18:amod	Translit=XXIV
+17	XXIV	XXIV	NUM	romandig	NumForm=Roman	18	nmod	18:nmod	Translit=XXIV
 18	r	rok	NOUN	brev:pun	Abbr=Yes	13	nmod	13:nmod	SpaceAfter=No|Translit=r
 19	.	.	PUNCT	interp	PunctType=Peri	1	punct	1:punct	Translit=.
 
@@ -11748,9 +11748,9 @@
 5	Niderlandzie	Niderland	PROPN	subst:sg:loc:m	Case=Loc|Gender=Masc|Number=Sing	2	nmod	2:nmod	Translit=Niderlandzie
 6	wynosi	wynosić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	Translit=wynosi
 7	do	do	ADP	prep:gen	AdpType=Prep	8	case	8:case	Case=Gen|Translit=do
-8	3,000	3,000	NUM	dig	NumForm=Digit	10	nummod	10:nummod	SpaceAfter=No|Translit=3,000
+8	3,000	3,000	NUM	dig	NumForm=Digit	6	obl:arg	6:obl:arg	SpaceAfter=No|Translit=3,000
 9	.	.	PUNCT	interp	PunctType=Peri	8	punct	8:punct	Translit=.
-10	mil	milion	NOUN	brev:pun	Abbr=Yes	6	nmod	6:nmod	SpaceAfter=No|Translit=mill
+10	mil	milion	NOUN	brev:pun	Abbr=Yes	8	flat	8:flat	SpaceAfter=No|Translit=mill
 11	.	.	PUNCT	interp	PunctType=Peri	6	punct	6:punct	Translit=.
 
 # sent_id = 1960
@@ -11780,7 +11780,7 @@
 21	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	23	case	23:case	Case=Gen|Translit=z
 22	drugiej	drugi	ADJ	adjnum:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	23	amod	23:amod	Translit=drugiey
 23	strony	strona	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	24	obl	24:obl	Translit=strony
-24	mógł	móc	VERB	praet:sg:m:imperf:nagl	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	ccomp	16:ccomp	Translit=mogł
+24	mógł	móc	VERB	praet:sg:m:imperf:nagl	Agglutination=Nagl|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	ccomp	16:ccomp	Translit=mogł
 25	zyskać	zyskać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	24:xcomp	SpaceAfter=No|Translit=zyskać
 26	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	Translit=.
 
@@ -11808,7 +11808,7 @@
 18	gdy	gdy	ADV	adv	_	10	advmod	10:advmod	Translit=gdy
 19	tymczasem	tymczasem	ADV	adv	_	20	advmod	20:advmod	Translit=tym czasem
 20	podlegają	podlegać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp	18:ccomp	Translit=podlegaią
-21	wielą	wiele	DET	num:pl:dat:n	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	25	det	25:det	Translit=wielą
+21	wielą	wiele	DET	num:pl:dat:n	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	25	det:nummod	25:det:nummod	Translit=wielą
 22	niesprawiedliwym	niesprawiedliwy	ADJ	adj:pl:dat:n:pos	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	25	amod	25:amod	Translit=niesprawiedliwym
 23	i	i	CCONJ	conj	_	24	cc	24:cc	Translit=i
 24	dziecinnym	dziecinny	ADJ	adj:pl:dat:n:pos	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	22	conj	22:conj|25:amod	Translit=dziecinnym
@@ -11868,7 +11868,7 @@
 6	Pełnomocnika	pełnomocnik	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	5	appos	5:appos	Translit=Pełnomocnika
 7	przy	przy	ADP	prep:loc	AdpType=Prep	8	case	8:case	Case=Loc|Translit=przy
 8	Kolumnie	kolumna	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	6	nmod	6:nmod	Translit=Kolumnie
-9	Ob	obywatel	ADV	brev:pun	Abbr=Yes	8	dep	8:dep	SpaceAfter=No|Translit=Ob
+9	Ob	obywatel	NOUN	brev:pun	Abbr=Yes	8	nmod:poss	8:nmod:poss	SpaceAfter=No|Translit=Ob
 10	:	:	PUNCT	interp	PunctType=Colo	9	punct	9:punct	Translit=:
 11	Generała	generał	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	9	appos	9:appos	Translit=Generała
 12	Wielhorskiego	Wielhorski	PROPN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	11	appos	11:appos	Translit=Wielhorskiego
@@ -11895,12 +11895,12 @@
 33	każda	każdy	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	47	nsubj	47:nsubj	Translit=każda
 34	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	35	case	35:case	Case=Gen|Translit=z
 35	nich	on	PRON	ppron3:pl:gen:f:ter:neut:praep	Case=Gen|Gender=Fem|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Short	33	nmod	33:nmod	Translit=nich
-36	po	po	ADP	prep:acc	AdpType=Prep	38	case	38:case	Case=Acc|Translit=po
-37	Furmanek	furmanka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	38	nmod:arg	38:nmod:arg	Translit=Furmanek
-38	500	500	NUM	dig	NumForm=Digit	47	obj	47:obj	Translit=500
+36	po	po	ADP	prep:acc	AdpType=Prep	37	case	37:case	Case=Acc|Translit=po
+37	Furmanek	furmanka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	47	obj	47:obj	Translit=Furmanek
+38	500	500	NUM	dig	NumForm=Digit	37	nummod	37:nummod	Translit=500
 39	i	i	CCONJ	conj	_	41	cc	41:cc	Translit=i
 40	potrzebną	potrzebny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	41:amod	Translit=potrzebną
-41	żywność	żywność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	38	conj	38:conj|47:obj	Translit=żywność
+41	żywność	żywność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	37	conj	37:conj|47:obj	Translit=żywność
 42	jak	jak	ADV	adv:pos	Degree=Pos	43	advmod	43:advmod	Translit=jak
 43	najspieszniej	spiesznie	ADV	adv:sup	Degree=Sup	47	advmod	47:advmod	Translit=nayspieszniey
 44	na	na	ADP	prep:acc	AdpType=Prep	46	case	46:case	Case=Acc|Translit=na
@@ -11919,7 +11919,7 @@
 4	gwałt	gwałt	NOUN	subst:sg:acc:m	Case=Acc|Gender=Masc|Number=Sing	1	obj	1:obj	Translit=gwałt
 5	dla	dla	ADP	prep:gen	AdpType=Prep	6	case	6:case	Case=Gen|Translit=dla
 6	miłości	miłość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	obl	1:obl	Translit=miłości
-7	W	waszmość	ADV	brev:pun	Abbr=Yes	6	dep	6:dep	SpaceAfter=No|Translit=W
+7	W	waszmość	NOUN	brev:pun	Abbr=Yes	6	nmod:poss	6:nmod:poss	SpaceAfter=No|Translit=W
 8	.	.	PUNCT	interp	PunctType=Peri	7	punct	7:punct	Translit=.
 9	Pana	pan	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	7	appos	7:appos	Translit=Pana
 10	Dobrodzieja	dobrodziej	NOUN	subst:sg:gen:m	Case=Gen|Gender=Masc|Number=Sing	9	appos	9:appos	SpaceAfter=No|Translit=Dobrodzieia
@@ -11948,7 +11948,7 @@
 # sent_id = 1985
 # orig_file_sentence = korba2_manual#SandHist#segm_1.154-s
 # text = Ze szczypawki w nocy zimna i wilgoci nielubią, kryją się tam, chcąc noc pod rogowym lub papierowym daszkiem przepędzić.
-# text_translit = Z szczypawki w nocy zimna i wilgoci nie lubią, kryią się tam, chcąc noc pod rogowym lub papierowym daszkiem przepędzić.
+# text_translit = Z szczypawki w nocy zimna i wilgoci nielubią, kryią się tam, chcąc noc pod rogowym lub papierowym daszkiem przepędzić.
 1	Ze	że	SCONJ	comp	_	9	mark	9:mark	Translit=Z
 2	szczypawki	szczypawka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	9:nsubj	Translit=szczypawki
 3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	4:case	Case=Loc|Translit=w
@@ -12126,7 +12126,7 @@
 # sent_id = 2007
 # orig_file_sentence = korba2_manual#ArtWoj#segm_1.210-s
 # text = Ktoby upiwszy się wykroczył coprzeciwko prawu wojskowemu; nie tylko nie będzie miał wymówek, ale tym srożej karany być ma.
-# text_translit = Ktoby upiwszy się wykroczył co przeciwko prawu woyskowemu; nie tylko nie będźie miał wymowek, ale tym srożey karany być ma.
+# text_translit = Ktoby upiwszy się wykroczył coprzeciwko prawu woyskowemu; nie tylko nie będźie miał wymowek, ale tym srożey karany być ma.
 1-2	Ktoby	_	_	_	_	_	_	_	Translit=Ktoby
 1	Kto	kto	PRON	subst:sg:nom:m	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	5	nsubj	5:nsubj	Translit=Kto
 2	by	by	AUX	part	_	5	aux:cnd	5:aux:cnd	Translit=by
@@ -12191,7 +12191,7 @@
 31	,	,	PUNCT	interp	PunctType=Comm	35	punct	35:punct	Translit=,
 32	na	na	ADP	prep:acc	AdpType=Prep	33	case	33:case	Case=Acc|Translit=na
 33	starostę	starosta	NOUN	subst:sg:acc:manim2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	35	orphan	35:orphan	Translit=starostę
-34	pół	pół	NUM	num:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word	35	nummod	35:nummod	Translit=pół
+34	pół	pół	NUM	num:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word	35	nummod:gov	35:nummod:gov	Translit=pół
 35	grzywny	grzywna	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	26	conj	26:conj	SpaceAfter=No|Translit=grzywny
 36	.	.	PUNCT	interp	PunctType=Peri	26	punct	26:punct	Translit=.
 
@@ -12228,7 +12228,7 @@
 3	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	Translit=,
 4	której	który	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|PronType=Rel	5	nsubj	5:nsubj	Translit=ktorey
 5	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	1:acl:relcl	Translit=było
-6	ośm	ośm	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	4	nummod	4:nummod	Translit=ośm
+6	ośm	ośm	NUM	num:pl:nom:m	Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	4	nummod:gov	4:nummod:gov	Translit=ośm
 7	tysięcy	tysiąc	NOUN	subst:pl:gen:m	Case=Gen|Gender=Masc|Number=Plur	6	flat	6:flat	SpaceAfter=No|Translit=tyśięcy
 8	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	Translit=,
 9	wszytka	wszytek	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	1:amod	Translit=wszytká
